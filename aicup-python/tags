@@ -1,0 +1,232 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/feffe43/
+ASSAULT_RIFLE	model/weapon_type.py	/^    ASSAULT_RIFLE = 1$/;"	v	class:WeaponType
+ActionMessage	model/player_message_game.py	/^class ActionMessage(PlayerMessageGame):$/;"	c
+BOOL_FORMAT_STRUCT	stream_wrapper.py	/^    BOOL_FORMAT_STRUCT = struct.Struct("?")$/;"	v	class:StreamWrapper
+Bullet	model/bullet.py	/^class Bullet:$/;"	c
+BulletParams	model/bullet_params.py	/^class BulletParams:$/;"	c
+CENTER	model/text_alignment.py	/^    CENTER = 1$/;"	v	class:TextAlignment
+ColorFloat	model/color_float.py	/^class ColorFloat:$/;"	c
+ColoredVertex	model/colored_vertex.py	/^class ColoredVertex:$/;"	c
+CustomData	model/custom_data.py	/^class CustomData:$/;"	c
+CustomDataMessage	model/player_message_game.py	/^class CustomDataMessage(PlayerMessageGame):$/;"	c
+DOUBLE_FORMAT_STRUCT	stream_wrapper.py	/^    DOUBLE_FORMAT_STRUCT = struct.Struct("<d")$/;"	v	class:StreamWrapper
+Debug	debug.py	/^class Debug:$/;"	c
+EMPTY	model/tile.py	/^    EMPTY = 0$/;"	v	class:Tile
+EXPLODED	model/mine_state.py	/^    EXPLODED = 3$/;"	v	class:MineState
+ExplosionParams	model/explosion_params.py	/^class ExplosionParams:$/;"	c
+FLOAT_FORMAT_STRUCT	stream_wrapper.py	/^    FLOAT_FORMAT_STRUCT = struct.Struct("<f")$/;"	v	class:StreamWrapper
+Game	model/game.py	/^class Game:$/;"	c
+HealthPack	model/item.py	/^class HealthPack(Item):$/;"	c
+IDLE	model/mine_state.py	/^    IDLE = 1$/;"	v	class:MineState
+INT_FORMAT_STRUCT	stream_wrapper.py	/^    INT_FORMAT_STRUCT = struct.Struct("<i")$/;"	v	class:StreamWrapper
+Item	model/item.py	/^class Item:$/;"	c
+JUMP_PAD	model/tile.py	/^    JUMP_PAD = 4$/;"	v	class:Tile
+JumpState	model/jump_state.py	/^class JumpState:$/;"	c
+LADDER	model/tile.py	/^    LADDER = 3$/;"	v	class:Tile
+LEFT	model/text_alignment.py	/^    LEFT = 0$/;"	v	class:TextAlignment
+LONG_FORMAT_STRUCT	stream_wrapper.py	/^    LONG_FORMAT_STRUCT = struct.Struct("<q")$/;"	v	class:StreamWrapper
+Level	model/level.py	/^class Level:$/;"	c
+Line	model/custom_data.py	/^class Line(CustomData):$/;"	c
+Log	model/custom_data.py	/^class Log(CustomData):$/;"	c
+LootBox	model/loot_box.py	/^class LootBox:$/;"	c
+Mine	model/item.py	/^class Mine(Item):$/;"	c
+Mine	model/mine.py	/^class Mine:$/;"	c
+MineState	model/mine_state.py	/^class MineState(IntEnum):$/;"	c
+MyStrategy	my_strategy.py	/^class MyStrategy:$/;"	c
+PISTOL	model/weapon_type.py	/^    PISTOL = 0$/;"	v	class:WeaponType
+PLATFORM	model/tile.py	/^    PLATFORM = 2$/;"	v	class:Tile
+PREPARING	model/mine_state.py	/^    PREPARING = 0$/;"	v	class:MineState
+PlacedText	model/custom_data.py	/^class PlacedText(CustomData):$/;"	c
+Player	model/player.py	/^class Player:$/;"	c
+PlayerMessageGame	model/player_message_game.py	/^class PlayerMessageGame:$/;"	c
+PlayerView	model/player_view.py	/^class PlayerView:$/;"	c
+Polygon	model/custom_data.py	/^class Polygon(CustomData):$/;"	c
+Properties	model/properties.py	/^class Properties:$/;"	c
+RIGHT	model/text_alignment.py	/^    RIGHT = 2$/;"	v	class:TextAlignment
+ROCKET_LAUNCHER	model/weapon_type.py	/^    ROCKET_LAUNCHER = 2$/;"	v	class:WeaponType
+Rect	model/custom_data.py	/^class Rect(CustomData):$/;"	c
+Runner	main.py	/^class Runner:$/;"	c
+ServerMessageGame	model/server_message_game.py	/^class ServerMessageGame:$/;"	c
+StreamWrapper	stream_wrapper.py	/^class StreamWrapper:$/;"	c
+TAG	model/custom_data.py	/^    TAG = 0$/;"	v	class:Log
+TAG	model/custom_data.py	/^    TAG = 1$/;"	v	class:Rect
+TAG	model/custom_data.py	/^    TAG = 2$/;"	v	class:Line
+TAG	model/custom_data.py	/^    TAG = 3$/;"	v	class:Polygon
+TAG	model/custom_data.py	/^    TAG = 4$/;"	v	class:PlacedText
+TAG	model/item.py	/^    TAG = 0$/;"	v	class:HealthPack
+TAG	model/item.py	/^    TAG = 1$/;"	v	class:Weapon
+TAG	model/item.py	/^    TAG = 2$/;"	v	class:Mine
+TAG	model/player_message_game.py	/^    TAG = 0$/;"	v	class:CustomDataMessage
+TAG	model/player_message_game.py	/^    TAG = 1$/;"	v	class:ActionMessage
+TRIGGERED	model/mine_state.py	/^    TRIGGERED = 2$/;"	v	class:MineState
+TextAlignment	model/text_alignment.py	/^class TextAlignment(IntEnum):$/;"	c
+Tile	model/tile.py	/^class Tile(IntEnum):$/;"	c
+Unit	model/unit.py	/^class Unit:$/;"	c
+UnitAction	model/unit_action.py	/^class UnitAction:$/;"	c
+Vec2Double	model/vec2_double.py	/^class Vec2Double:$/;"	c
+Vec2Float	model/vec2_float.py	/^class Vec2Float:$/;"	c
+Versioned	model/versioned.py	/^class Versioned:$/;"	c
+WALL	model/tile.py	/^    WALL = 1$/;"	v	class:Tile
+Weapon	model/item.py	/^class Weapon(Item):$/;"	c
+Weapon	model/weapon.py	/^class Weapon:$/;"	c
+WeaponParams	model/weapon_params.py	/^class WeaponParams:$/;"	c
+WeaponType	model/weapon_type.py	/^class WeaponType(IntEnum):$/;"	c
+__init__	debug.py	/^    def __init__(self, writer):$/;"	m	class:Debug
+__init__	main.py	/^    def __init__(self, host, port, token):$/;"	m	class:Runner
+__init__	model/bullet.py	/^    def __init__(self, weapon_type, unit_id, player_id, position, velocity, damage, size, explos/;"	m	class:Bullet
+__init__	model/bullet_params.py	/^    def __init__(self, speed, size, damage):$/;"	m	class:BulletParams
+__init__	model/color_float.py	/^    def __init__(self, r, g, b, a):$/;"	m	class:ColorFloat
+__init__	model/colored_vertex.py	/^    def __init__(self, position, color):$/;"	m	class:ColoredVertex
+__init__	model/custom_data.py	/^    def __init__(self, p1, p2, width, color):$/;"	m	class:Line
+__init__	model/custom_data.py	/^    def __init__(self, pos, size, color):$/;"	m	class:Rect
+__init__	model/custom_data.py	/^    def __init__(self, text):$/;"	m	class:Log
+__init__	model/custom_data.py	/^    def __init__(self, text, pos, alignment, size, color):$/;"	m	class:PlacedText
+__init__	model/custom_data.py	/^    def __init__(self, vertices):$/;"	m	class:Polygon
+__init__	model/explosion_params.py	/^    def __init__(self, radius, damage):$/;"	m	class:ExplosionParams
+__init__	model/game.py	/^    def __init__(self, current_tick, properties, level, players, units, bullets, mines, loot_box/;"	m	class:Game
+__init__	model/item.py	/^    def __init__(self):$/;"	m	class:Mine
+__init__	model/item.py	/^    def __init__(self, health):$/;"	m	class:HealthPack
+__init__	model/item.py	/^    def __init__(self, weapon_type):$/;"	m	class:Weapon
+__init__	model/jump_state.py	/^    def __init__(self, can_jump, speed, max_time, can_cancel):$/;"	m	class:JumpState
+__init__	model/level.py	/^    def __init__(self, tiles):$/;"	m	class:Level
+__init__	model/loot_box.py	/^    def __init__(self, position, size, item):$/;"	m	class:LootBox
+__init__	model/mine.py	/^    def __init__(self, player_id, position, size, state, timer, trigger_radius, explosion_params/;"	m	class:Mine
+__init__	model/player.py	/^    def __init__(self, id, score):$/;"	m	class:Player
+__init__	model/player_message_game.py	/^    def __init__(self, action):$/;"	m	class:ActionMessage
+__init__	model/player_message_game.py	/^    def __init__(self, data):$/;"	m	class:CustomDataMessage
+__init__	model/player_view.py	/^    def __init__(self, my_id, game):$/;"	m	class:PlayerView
+__init__	model/properties.py	/^    def __init__(self, max_tick_count, team_size, ticks_per_second, updates_per_tick, loot_box_s/;"	m	class:Properties
+__init__	model/server_message_game.py	/^    def __init__(self, player_view):$/;"	m	class:ServerMessageGame
+__init__	model/unit.py	/^    def __init__(self, player_id, id, health, position, size, jump_state, walked_right, stand, o/;"	m	class:Unit
+__init__	model/unit_action.py	/^    def __init__(self, velocity, jump, jump_down, aim, shoot, reload, swap_weapon, plant_mine):$/;"	m	class:UnitAction
+__init__	model/vec2_double.py	/^    def __init__(self, x, y):$/;"	m	class:Vec2Double
+__init__	model/vec2_float.py	/^    def __init__(self, x, y):$/;"	m	class:Vec2Float
+__init__	model/versioned.py	/^    def __init__(self, inner):$/;"	m	class:Versioned
+__init__	model/weapon.py	/^    def __init__(self, typ, params, magazine, was_shooting, spread, fire_timer, last_angle, last/;"	m	class:Weapon
+__init__	model/weapon_params.py	/^    def __init__(self, magazine_size, fire_rate, reload_time, min_spread, max_spread, recoil, ai/;"	m	class:WeaponParams
+__init__	my_strategy.py	/^    def __init__(self):$/;"	m	class:MyStrategy
+__init__	stream_wrapper.py	/^    def __init__(self, stream):$/;"	m	class:StreamWrapper
+__repr__	model/bullet.py	/^    def __repr__(self):$/;"	m	class:Bullet
+__repr__	model/bullet_params.py	/^    def __repr__(self):$/;"	m	class:BulletParams
+__repr__	model/color_float.py	/^    def __repr__(self):$/;"	m	class:ColorFloat
+__repr__	model/colored_vertex.py	/^    def __repr__(self):$/;"	m	class:ColoredVertex
+__repr__	model/custom_data.py	/^    def __repr__(self):$/;"	m	class:Line
+__repr__	model/custom_data.py	/^    def __repr__(self):$/;"	m	class:Log
+__repr__	model/custom_data.py	/^    def __repr__(self):$/;"	m	class:PlacedText
+__repr__	model/custom_data.py	/^    def __repr__(self):$/;"	m	class:Polygon
+__repr__	model/custom_data.py	/^    def __repr__(self):$/;"	m	class:Rect
+__repr__	model/explosion_params.py	/^    def __repr__(self):$/;"	m	class:ExplosionParams
+__repr__	model/game.py	/^    def __repr__(self):$/;"	m	class:Game
+__repr__	model/item.py	/^    def __repr__(self):$/;"	m	class:HealthPack
+__repr__	model/item.py	/^    def __repr__(self):$/;"	m	class:Mine
+__repr__	model/item.py	/^    def __repr__(self):$/;"	m	class:Weapon
+__repr__	model/jump_state.py	/^    def __repr__(self):$/;"	m	class:JumpState
+__repr__	model/level.py	/^    def __repr__(self):$/;"	m	class:Level
+__repr__	model/loot_box.py	/^    def __repr__(self):$/;"	m	class:LootBox
+__repr__	model/mine.py	/^    def __repr__(self):$/;"	m	class:Mine
+__repr__	model/player.py	/^    def __repr__(self):$/;"	m	class:Player
+__repr__	model/player_message_game.py	/^    def __repr__(self):$/;"	m	class:ActionMessage
+__repr__	model/player_message_game.py	/^    def __repr__(self):$/;"	m	class:CustomDataMessage
+__repr__	model/player_view.py	/^    def __repr__(self):$/;"	m	class:PlayerView
+__repr__	model/properties.py	/^    def __repr__(self):$/;"	m	class:Properties
+__repr__	model/server_message_game.py	/^    def __repr__(self):$/;"	m	class:ServerMessageGame
+__repr__	model/unit.py	/^    def __repr__(self):$/;"	m	class:Unit
+__repr__	model/unit_action.py	/^    def __repr__(self):$/;"	m	class:UnitAction
+__repr__	model/vec2_double.py	/^    def __repr__(self):$/;"	m	class:Vec2Double
+__repr__	model/vec2_float.py	/^    def __repr__(self):$/;"	m	class:Vec2Float
+__repr__	model/versioned.py	/^    def __repr__(self):$/;"	m	class:Versioned
+__repr__	model/weapon.py	/^    def __repr__(self):$/;"	m	class:Weapon
+__repr__	model/weapon_params.py	/^    def __repr__(self):$/;"	m	class:WeaponParams
+close	stream_wrapper.py	/^    def close(self):$/;"	m	class:StreamWrapper
+distance_sqr	my_strategy.py	/^        def distance_sqr(a, b):$/;"	f	member:MyStrategy.get_action	file:
+draw	debug.py	/^    def draw(self, data):$/;"	m	class:Debug
+flush	stream_wrapper.py	/^    def flush(self):$/;"	m	class:StreamWrapper
+get_action	my_strategy.py	/^    def get_action(self, unit, game, debug):$/;"	m	class:MyStrategy
+host	main.py	/^    host = "127.0.0.1" if len(sys.argv) < 2 else sys.argv[1]$/;"	v
+port	main.py	/^    port = 31001 if len(sys.argv) < 3 else int(sys.argv[2])$/;"	v
+read_bool	stream_wrapper.py	/^    def read_bool(self):$/;"	m	class:StreamWrapper
+read_double	stream_wrapper.py	/^    def read_double(self):$/;"	m	class:StreamWrapper
+read_float	stream_wrapper.py	/^    def read_float(self):$/;"	m	class:StreamWrapper
+read_from	model/bullet.py	/^    def read_from(stream):$/;"	m	class:Bullet
+read_from	model/bullet_params.py	/^    def read_from(stream):$/;"	m	class:BulletParams
+read_from	model/color_float.py	/^    def read_from(stream):$/;"	m	class:ColorFloat
+read_from	model/colored_vertex.py	/^    def read_from(stream):$/;"	m	class:ColoredVertex
+read_from	model/custom_data.py	/^    def read_from(stream):$/;"	m	class:CustomData
+read_from	model/custom_data.py	/^    def read_from(stream):$/;"	m	class:Line
+read_from	model/custom_data.py	/^    def read_from(stream):$/;"	m	class:Log
+read_from	model/custom_data.py	/^    def read_from(stream):$/;"	m	class:PlacedText
+read_from	model/custom_data.py	/^    def read_from(stream):$/;"	m	class:Polygon
+read_from	model/custom_data.py	/^    def read_from(stream):$/;"	m	class:Rect
+read_from	model/explosion_params.py	/^    def read_from(stream):$/;"	m	class:ExplosionParams
+read_from	model/game.py	/^    def read_from(stream):$/;"	m	class:Game
+read_from	model/item.py	/^    def read_from(stream):$/;"	m	class:HealthPack
+read_from	model/item.py	/^    def read_from(stream):$/;"	m	class:Item
+read_from	model/item.py	/^    def read_from(stream):$/;"	m	class:Mine
+read_from	model/item.py	/^    def read_from(stream):$/;"	m	class:Weapon
+read_from	model/jump_state.py	/^    def read_from(stream):$/;"	m	class:JumpState
+read_from	model/level.py	/^    def read_from(stream):$/;"	m	class:Level
+read_from	model/loot_box.py	/^    def read_from(stream):$/;"	m	class:LootBox
+read_from	model/mine.py	/^    def read_from(stream):$/;"	m	class:Mine
+read_from	model/player.py	/^    def read_from(stream):$/;"	m	class:Player
+read_from	model/player_message_game.py	/^    def read_from(stream):$/;"	m	class:ActionMessage
+read_from	model/player_message_game.py	/^    def read_from(stream):$/;"	m	class:CustomDataMessage
+read_from	model/player_message_game.py	/^    def read_from(stream):$/;"	m	class:PlayerMessageGame
+read_from	model/player_view.py	/^    def read_from(stream):$/;"	m	class:PlayerView
+read_from	model/properties.py	/^    def read_from(stream):$/;"	m	class:Properties
+read_from	model/server_message_game.py	/^    def read_from(stream):$/;"	m	class:ServerMessageGame
+read_from	model/unit.py	/^    def read_from(stream):$/;"	m	class:Unit
+read_from	model/unit_action.py	/^    def read_from(stream):$/;"	m	class:UnitAction
+read_from	model/vec2_double.py	/^    def read_from(stream):$/;"	m	class:Vec2Double
+read_from	model/vec2_float.py	/^    def read_from(stream):$/;"	m	class:Vec2Float
+read_from	model/versioned.py	/^    def read_from(stream):$/;"	m	class:Versioned
+read_from	model/weapon.py	/^    def read_from(stream):$/;"	m	class:Weapon
+read_from	model/weapon_params.py	/^    def read_from(stream):$/;"	m	class:WeaponParams
+read_int	stream_wrapper.py	/^    def read_int(self):$/;"	m	class:StreamWrapper
+read_long	stream_wrapper.py	/^    def read_long(self):$/;"	m	class:StreamWrapper
+read_string	stream_wrapper.py	/^    def read_string(self):$/;"	m	class:StreamWrapper
+run	main.py	/^    def run(self):$/;"	m	class:Runner
+token	main.py	/^    token = "0000000000000000" if len(sys.argv) < 4 else sys.argv[3]$/;"	v
+write_bool	stream_wrapper.py	/^    def write_bool(self, value):$/;"	m	class:StreamWrapper
+write_double	stream_wrapper.py	/^    def write_double(self, value):$/;"	m	class:StreamWrapper
+write_float	stream_wrapper.py	/^    def write_float(self, value):$/;"	m	class:StreamWrapper
+write_int	stream_wrapper.py	/^    def write_int(self, value):$/;"	m	class:StreamWrapper
+write_long	stream_wrapper.py	/^    def write_long(self, value):$/;"	m	class:StreamWrapper
+write_string	stream_wrapper.py	/^    def write_string(self, value):$/;"	m	class:StreamWrapper
+write_to	model/bullet.py	/^    def write_to(self, stream):$/;"	m	class:Bullet
+write_to	model/bullet_params.py	/^    def write_to(self, stream):$/;"	m	class:BulletParams
+write_to	model/color_float.py	/^    def write_to(self, stream):$/;"	m	class:ColorFloat
+write_to	model/colored_vertex.py	/^    def write_to(self, stream):$/;"	m	class:ColoredVertex
+write_to	model/custom_data.py	/^    def write_to(self, stream):$/;"	m	class:Line
+write_to	model/custom_data.py	/^    def write_to(self, stream):$/;"	m	class:Log
+write_to	model/custom_data.py	/^    def write_to(self, stream):$/;"	m	class:PlacedText
+write_to	model/custom_data.py	/^    def write_to(self, stream):$/;"	m	class:Polygon
+write_to	model/custom_data.py	/^    def write_to(self, stream):$/;"	m	class:Rect
+write_to	model/explosion_params.py	/^    def write_to(self, stream):$/;"	m	class:ExplosionParams
+write_to	model/game.py	/^    def write_to(self, stream):$/;"	m	class:Game
+write_to	model/item.py	/^    def write_to(self, stream):$/;"	m	class:HealthPack
+write_to	model/item.py	/^    def write_to(self, stream):$/;"	m	class:Mine
+write_to	model/item.py	/^    def write_to(self, stream):$/;"	m	class:Weapon
+write_to	model/jump_state.py	/^    def write_to(self, stream):$/;"	m	class:JumpState
+write_to	model/level.py	/^    def write_to(self, stream):$/;"	m	class:Level
+write_to	model/loot_box.py	/^    def write_to(self, stream):$/;"	m	class:LootBox
+write_to	model/mine.py	/^    def write_to(self, stream):$/;"	m	class:Mine
+write_to	model/player.py	/^    def write_to(self, stream):$/;"	m	class:Player
+write_to	model/player_message_game.py	/^    def write_to(self, stream):$/;"	m	class:ActionMessage
+write_to	model/player_message_game.py	/^    def write_to(self, stream):$/;"	m	class:CustomDataMessage
+write_to	model/player_view.py	/^    def write_to(self, stream):$/;"	m	class:PlayerView
+write_to	model/properties.py	/^    def write_to(self, stream):$/;"	m	class:Properties
+write_to	model/server_message_game.py	/^    def write_to(self, stream):$/;"	m	class:ServerMessageGame
+write_to	model/unit.py	/^    def write_to(self, stream):$/;"	m	class:Unit
+write_to	model/unit_action.py	/^    def write_to(self, stream):$/;"	m	class:UnitAction
+write_to	model/vec2_double.py	/^    def write_to(self, stream):$/;"	m	class:Vec2Double
+write_to	model/vec2_float.py	/^    def write_to(self, stream):$/;"	m	class:Vec2Float
+write_to	model/versioned.py	/^    def write_to(self, stream):$/;"	m	class:Versioned
+write_to	model/weapon.py	/^    def write_to(self, stream):$/;"	m	class:Weapon
+write_to	model/weapon_params.py	/^    def write_to(self, stream):$/;"	m	class:WeaponParams

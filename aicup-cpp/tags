@@ -1,0 +1,1224 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/feffe43/
+$(VERBOSE).SILENT	build/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+ARCHITECTURE_ID	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID$/;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID$/;"	d	file:
+ASSAULT_RIFLE	model/WeaponType.hpp	/^    ASSAULT_RIFLE = 1,$/;"	e	enum:WeaponType
+ActionMessage	model/PlayerMessageGame.cpp	/^PlayerMessageGame::ActionMessage::ActionMessage() { }$/;"	f	class:PlayerMessageGame::ActionMessage
+ActionMessage	model/PlayerMessageGame.cpp	/^PlayerMessageGame::ActionMessage::ActionMessage(Versioned action) : action(action) { }$/;"	f	class:PlayerMessageGame::ActionMessage
+ActionMessage	model/PlayerMessageGame.hpp	/^class PlayerMessageGame::ActionMessage : public PlayerMessageGame {$/;"	c	class:PlayerMessageGame
+BUFFER_CAPACITY	TcpStream.cpp	/^  static const size_t BUFFER_CAPACITY = 8 * 1024;$/;"	m	class:TcpInputStream	typeref:typename:const size_t	file:
+BUFFER_CAPACITY	TcpStream.cpp	/^  static const size_t BUFFER_CAPACITY = 8 * 1024;$/;"	m	class:TcpOutputStream	typeref:typename:const size_t	file:
+Bullet	model/Bullet.cpp	/^Bullet::Bullet() { }$/;"	f	class:Bullet
+Bullet	model/Bullet.cpp	/^Bullet::Bullet(WeaponType weaponType, int unitId, int playerId, Vec2Double position, Vec2Double /;"	f	class:Bullet
+Bullet	model/Bullet.hpp	/^class Bullet {$/;"	c
+Bullet::Bullet	model/Bullet.cpp	/^Bullet::Bullet() { }$/;"	f	class:Bullet
+Bullet::Bullet	model/Bullet.cpp	/^Bullet::Bullet(WeaponType weaponType, int unitId, int playerId, Vec2Double position, Vec2Double /;"	f	class:Bullet
+Bullet::damage	model/Bullet.hpp	/^    int damage;$/;"	m	class:Bullet	typeref:typename:int
+Bullet::explosionParams	model/Bullet.hpp	/^    std::shared_ptr<ExplosionParams> explosionParams;$/;"	m	class:Bullet	typeref:typename:std::shared_ptr<ExplosionParams>
+Bullet::playerId	model/Bullet.hpp	/^    int playerId;$/;"	m	class:Bullet	typeref:typename:int
+Bullet::position	model/Bullet.hpp	/^    Vec2Double position;$/;"	m	class:Bullet	typeref:typename:Vec2Double
+Bullet::readFrom	model/Bullet.cpp	/^Bullet Bullet::readFrom(InputStream& stream) {$/;"	f	class:Bullet	typeref:typename:Bullet
+Bullet::size	model/Bullet.hpp	/^    double size;$/;"	m	class:Bullet	typeref:typename:double
+Bullet::toString	model/Bullet.cpp	/^std::string Bullet::toString() const {$/;"	f	class:Bullet	typeref:typename:std::string
+Bullet::unitId	model/Bullet.hpp	/^    int unitId;$/;"	m	class:Bullet	typeref:typename:int
+Bullet::velocity	model/Bullet.hpp	/^    Vec2Double velocity;$/;"	m	class:Bullet	typeref:typename:Vec2Double
+Bullet::weaponType	model/Bullet.hpp	/^    WeaponType weaponType;$/;"	m	class:Bullet	typeref:typename:WeaponType
+Bullet::writeTo	model/Bullet.cpp	/^void Bullet::writeTo(OutputStream& stream) const {$/;"	f	class:Bullet	typeref:typename:void
+BulletParams	model/BulletParams.cpp	/^BulletParams::BulletParams() { }$/;"	f	class:BulletParams
+BulletParams	model/BulletParams.cpp	/^BulletParams::BulletParams(double speed, double size, int damage) : speed(speed), size(size), da/;"	f	class:BulletParams
+BulletParams	model/BulletParams.hpp	/^class BulletParams {$/;"	c
+BulletParams::BulletParams	model/BulletParams.cpp	/^BulletParams::BulletParams() { }$/;"	f	class:BulletParams
+BulletParams::BulletParams	model/BulletParams.cpp	/^BulletParams::BulletParams(double speed, double size, int damage) : speed(speed), size(size), da/;"	f	class:BulletParams
+BulletParams::damage	model/BulletParams.hpp	/^    int damage;$/;"	m	class:BulletParams	typeref:typename:int
+BulletParams::readFrom	model/BulletParams.cpp	/^BulletParams BulletParams::readFrom(InputStream& stream) {$/;"	f	class:BulletParams	typeref:typename:BulletParams
+BulletParams::size	model/BulletParams.hpp	/^    double size;$/;"	m	class:BulletParams	typeref:typename:double
+BulletParams::speed	model/BulletParams.hpp	/^    double speed;$/;"	m	class:BulletParams	typeref:typename:double
+BulletParams::toString	model/BulletParams.cpp	/^std::string BulletParams::toString() const {$/;"	f	class:BulletParams	typeref:typename:std::string
+BulletParams::writeTo	model/BulletParams.cpp	/^void BulletParams::writeTo(OutputStream& stream) const {$/;"	f	class:BulletParams	typeref:typename:void
+CENTER	model/TextAlignment.hpp	/^    CENTER = 1,$/;"	e	enum:TextAlignment
+CMAKE_AR	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_AR "\/Library\/Developer\/CommandLineTools\/usr\/bin\/ar")$/;"	v
+CMAKE_AR	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_AR "\/Library\/Developer\/CommandLineTools\/usr\/bin\/ar")$/;"	v
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/Users\/kimbochen\/Desktop\/ai_cup\/aicup-cpp$/;"	m
+CMAKE_C11_COMPILE_FEATURES	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C11_COMPILE_FEATURES "c_std_11;c_static_assert")$/;"	v
+CMAKE_C90_COMPILE_FEATURES	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C90_COMPILE_FEATURES "c_std_90;c_function_prototypes")$/;"	v
+CMAKE_C99_COMPILE_FEATURES	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C99_COMPILE_FEATURES "c_std_99;c_restrict;c_variadic_macros")$/;"	v
+CMAKE_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_C_CL_SHOWINCLUDES_PREFIX}")$/;"	v
+CMAKE_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_CXX_CL_SHOWINCLUDES_PREFIX}")$/;"	v
+CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/local\/Cellar\/cmake\/3.16.2\/bin\/cmake$/;"	m
+CMAKE_COMPILER_IS_CYGWIN	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_COMPILER_IS_CYGWIN )$/;"	v
+CMAKE_COMPILER_IS_CYGWIN	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_CYGWIN )$/;"	v
+CMAKE_COMPILER_IS_GNUCC	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_COMPILER_IS_GNUCC )$/;"	v
+CMAKE_COMPILER_IS_GNUCXX	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_GNUCXX )$/;"	v
+CMAKE_COMPILER_IS_MINGW	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_COMPILER_IS_MINGW )$/;"	v
+CMAKE_COMPILER_IS_MINGW	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_MINGW )$/;"	v
+CMAKE_CROSSCOMPILING	build/CMakeFiles/3.16.2/CMakeSystem.cmake	/^set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CROSSCOMPILING	build/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CXX11_COMPILE_FEATURES	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX11_COMPILE_FEATURES "cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_att/;"	v
+CMAKE_CXX14_COMPILE_FEATURES	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX14_COMPILE_FEATURES "cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_de/;"	v
+CMAKE_CXX17_COMPILE_FEATURES	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")$/;"	v
+CMAKE_CXX20_COMPILE_FEATURES	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX20_COMPILE_FEATURES "cxx_std_20")$/;"	v
+CMAKE_CXX98_COMPILE_FEATURES	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX98_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters")$/;"	v
+CMAKE_CXX_ABI_COMPILED	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_ABI_COMPILED TRUE)$/;"	v
+CMAKE_CXX_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_CL_SHOWINCLUDES_PREFIX "")$/;"	v
+CMAKE_CXX_COMPILER	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER "\/Library\/Developer\/CommandLineTools\/usr\/bin\/c++")$/;"	v
+CMAKE_CXX_COMPILER_ABI	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ABI "")$/;"	v
+CMAKE_CXX_COMPILER_AR	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_AR "")$/;"	v
+CMAKE_CXX_COMPILER_ARG1	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ARG1 "")$/;"	v
+CMAKE_CXX_COMPILER_ENV_VAR	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ENV_VAR "CXX")$/;"	v
+CMAKE_CXX_COMPILER_FRONTEND_VARIANT	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID "AppleClang")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/CMakeFiles/aicup2019.dir/DependInfo.cmake	/^set(CMAKE_CXX_COMPILER_ID "AppleClang")$/;"	v
+CMAKE_CXX_COMPILER_ID_RUN	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID_RUN 1)$/;"	v
+CMAKE_CXX_COMPILER_LOADED	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_LOADED 1)$/;"	v
+CMAKE_CXX_COMPILER_RANLIB	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_RANLIB "")$/;"	v
+CMAKE_CXX_COMPILER_VERSION	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION "11.0.0.11000033")$/;"	v
+CMAKE_CXX_COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")$/;"	v
+CMAKE_CXX_COMPILER_WORKS	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WORKS TRUE)$/;"	v
+CMAKE_CXX_COMPILER_WRAPPER	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WRAPPER "")$/;"	v
+CMAKE_CXX_COMPILE_FEATURES	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias/;"	v
+CMAKE_CXX_IGNORE_EXTENSIONS	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IGNORE_EXTENSIONS inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC)$/;"	v
+CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "\/Library\/Developer\/CommandLineTools\/usr\/include/;"	v
+CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX10./;"	v
+CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "\/Library\/Developer\/CommandLineTools\/SDKs\//;"	v
+CMAKE_CXX_IMPLICIT_LINK_LIBRARIES	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "c++")$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_COMPLAIN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_COMPLAIN ${CMAKE_C_INCLUDE_REGEX_COMPLAIN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_SCAN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})$/;"	v
+CMAKE_CXX_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LIBRARY_ARCHITECTURE "")$/;"	v
+CMAKE_CXX_LINKER_PREFERENCE	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE 30)$/;"	v
+CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)$/;"	v
+CMAKE_CXX_PLATFORM_ID	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_PLATFORM_ID "Darwin")$/;"	v
+CMAKE_CXX_SIMULATE_ID	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_ID "")$/;"	v
+CMAKE_CXX_SIMULATE_VERSION	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_VERSION "")$/;"	v
+CMAKE_CXX_SIZEOF_DATA_PTR	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIZEOF_DATA_PTR "8")$/;"	v
+CMAKE_CXX_SOURCE_FILE_EXTENSIONS	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;CPP)$/;"	v
+CMAKE_CXX_STANDARD_COMPUTED_DEFAULT	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "98")$/;"	v
+CMAKE_CXX_TARGET_INCLUDE_PATH	build/CMakeFiles/aicup2019.dir/DependInfo.cmake	/^set(CMAKE_CXX_TARGET_INCLUDE_PATH$/;"	v
+CMAKE_C_ABI_COMPILED	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_ABI_COMPILED TRUE)$/;"	v
+CMAKE_C_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_CL_SHOWINCLUDES_PREFIX "")$/;"	v
+CMAKE_C_COMPILER	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER "\/Library\/Developer\/CommandLineTools\/usr\/bin\/cc")$/;"	v
+CMAKE_C_COMPILER_ABI	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ABI "")$/;"	v
+CMAKE_C_COMPILER_AR	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_AR "")$/;"	v
+CMAKE_C_COMPILER_ARG1	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ARG1 "")$/;"	v
+CMAKE_C_COMPILER_ENV_VAR	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ENV_VAR "CC")$/;"	v
+CMAKE_C_COMPILER_FRONTEND_VARIANT	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_FRONTEND_VARIANT "")$/;"	v
+CMAKE_C_COMPILER_ID	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ID "AppleClang")$/;"	v
+CMAKE_C_COMPILER_ID_RUN	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ID_RUN 1)$/;"	v
+CMAKE_C_COMPILER_LOADED	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_LOADED 1)$/;"	v
+CMAKE_C_COMPILER_RANLIB	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_RANLIB "")$/;"	v
+CMAKE_C_COMPILER_VERSION	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_VERSION "11.0.0.11000033")$/;"	v
+CMAKE_C_COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_VERSION_INTERNAL "")$/;"	v
+CMAKE_C_COMPILER_WORKS	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_WORKS TRUE)$/;"	v
+CMAKE_C_COMPILER_WRAPPER	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_WRAPPER "")$/;"	v
+CMAKE_C_COMPILE_FEATURES	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILE_FEATURES "c_std_90;c_function_prototypes;c_std_99;c_restrict;c_variadic_macr/;"	v
+CMAKE_C_IGNORE_EXTENSIONS	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)$/;"	v
+CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clan/;"	v
+CMAKE_C_IMPLICIT_LINK_DIRECTORIES	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX10.15/;"	v
+CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "\/Library\/Developer\/CommandLineTools\/SDKs\/M/;"	v
+CMAKE_C_IMPLICIT_LINK_LIBRARIES	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")$/;"	v
+CMAKE_C_INCLUDE_REGEX_COMPLAIN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_SCAN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")$/;"	v
+CMAKE_C_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_LIBRARY_ARCHITECTURE "")$/;"	v
+CMAKE_C_LINKER_PREFERENCE	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_LINKER_PREFERENCE 10)$/;"	v
+CMAKE_C_PLATFORM_ID	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_PLATFORM_ID "Darwin")$/;"	v
+CMAKE_C_SIMULATE_ID	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_SIMULATE_ID "")$/;"	v
+CMAKE_C_SIMULATE_VERSION	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_SIMULATE_VERSION "")$/;"	v
+CMAKE_C_SIZEOF_DATA_PTR	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_SIZEOF_DATA_PTR "8")$/;"	v
+CMAKE_C_SOURCE_FILE_EXTENSIONS	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_SOURCE_FILE_EXTENSIONS c;m)$/;"	v
+CMAKE_C_STANDARD_COMPUTED_DEFAULT	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "11")$/;"	v
+CMAKE_DEPENDS_CHECK_CXX	build/CMakeFiles/aicup2019.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_CHECK_CXX$/;"	v
+CMAKE_DEPENDS_GENERATOR	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/aicup2019.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPEND_INFO_FILES	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_DEPEND_INFO_FILES$/;"	v
+CMAKE_FORCE_UNIX_PATHS	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_FORCE_UNIX_PATHS 1)$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/aicup2019.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_HOST_SYSTEM	build/CMakeFiles/3.16.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM "Darwin-19.2.0")$/;"	v
+CMAKE_HOST_SYSTEM_NAME	build/CMakeFiles/3.16.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_NAME "Darwin")$/;"	v
+CMAKE_HOST_SYSTEM_PROCESSOR	build/CMakeFiles/3.16.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_HOST_SYSTEM_VERSION	build/CMakeFiles/3.16.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_VERSION "19.2.0")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
+CMAKE_INSTALL_CONFIG_NAME	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "")$/;"	v
+CMAKE_INSTALL_MANIFEST	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")$/;"	v
+CMAKE_INSTALL_MANIFEST	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")$/;"	v
+CMAKE_INSTALL_PREFIX	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/usr\/local")$/;"	v
+CMAKE_INTERNAL_PLATFORM_ABI	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_C_COMPILER_ABI}")$/;"	v
+CMAKE_INTERNAL_PLATFORM_ABI	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_CXX_COMPILER_ABI}")$/;"	v
+CMAKE_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^  set(CMAKE_LIBRARY_ARCHITECTURE "")$/;"	v
+CMAKE_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^  set(CMAKE_LIBRARY_ARCHITECTURE "")$/;"	v
+CMAKE_LINKER	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_LINKER "\/Library\/Developer\/CommandLineTools\/usr\/bin\/ld")$/;"	v
+CMAKE_LINKER	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_LINKER "\/Library\/Developer\/CommandLineTools\/usr\/bin\/ld")$/;"	v
+CMAKE_MAKEFILE_DEPENDS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_DEPENDS$/;"	v
+CMAKE_MAKEFILE_OUTPUTS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_OUTPUTS$/;"	v
+CMAKE_MAKEFILE_PRODUCTS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_PRODUCTS$/;"	v
+CMAKE_MT	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_MT "")$/;"	v
+CMAKE_MT	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_MT "")$/;"	v
+CMAKE_RANLIB	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^set(CMAKE_RANLIB "\/Library\/Developer\/CommandLineTools\/usr\/bin\/ranlib")$/;"	v
+CMAKE_RANLIB	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^set(CMAKE_RANLIB "\/Library\/Developer\/CommandLineTools\/usr\/bin\/ranlib")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_BINARY	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_BINARY "\/Users\/kimbochen\/Desktop\/ai_cup\/aicup-cpp")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_SOURCE	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_SOURCE "\/Users\/kimbochen\/Desktop\/ai_cup\/aicup-cpp")$/;"	v
+CMAKE_SIZEOF_VOID_P	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_C_SIZEOF_DATA_PTR}")$/;"	v
+CMAKE_SIZEOF_VOID_P	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_CXX_SIZEOF_DATA_PTR}")$/;"	v
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/Users\/kimbochen\/Desktop\/ai_cup\/aicup-cpp$/;"	m
+CMAKE_SYSTEM	build/CMakeFiles/3.16.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM "Darwin-19.2.0")$/;"	v
+CMAKE_SYSTEM_LOADED	build/CMakeFiles/3.16.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_LOADED 1)$/;"	v
+CMAKE_SYSTEM_NAME	build/CMakeFiles/3.16.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_NAME "Darwin")$/;"	v
+CMAKE_SYSTEM_PROCESSOR	build/CMakeFiles/3.16.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_SYSTEM_VERSION	build/CMakeFiles/3.16.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_VERSION "19.2.0")$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/aicup2019.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+COMPILER_ID	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_ID /;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+CXX_STD	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#      define CXX_STD /;"	d	file:
+CXX_STD	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#    define CXX_STD /;"	d	file:
+CXX_STD	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define CXX_STD /;"	d	file:
+CYGWIN	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^  set(CYGWIN 1)$/;"	v
+CYGWIN	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^  set(CYGWIN 1)$/;"	v
+C_DIALECT	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define C_DIALECT /;"	d	file:
+C_DIALECT	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define C_DIALECT$/;"	d	file:
+C_DIALECT	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^# define C_DIALECT /;"	d	file:
+ColorFloat	model/ColorFloat.cpp	/^ColorFloat::ColorFloat() { }$/;"	f	class:ColorFloat
+ColorFloat	model/ColorFloat.cpp	/^ColorFloat::ColorFloat(float r, float g, float b, float a) : r(r), g(g), b(b), a(a) { }$/;"	f	class:ColorFloat
+ColorFloat	model/ColorFloat.hpp	/^class ColorFloat {$/;"	c
+ColorFloat::ColorFloat	model/ColorFloat.cpp	/^ColorFloat::ColorFloat() { }$/;"	f	class:ColorFloat
+ColorFloat::ColorFloat	model/ColorFloat.cpp	/^ColorFloat::ColorFloat(float r, float g, float b, float a) : r(r), g(g), b(b), a(a) { }$/;"	f	class:ColorFloat
+ColorFloat::a	model/ColorFloat.hpp	/^    float a;$/;"	m	class:ColorFloat	typeref:typename:float
+ColorFloat::b	model/ColorFloat.hpp	/^    float b;$/;"	m	class:ColorFloat	typeref:typename:float
+ColorFloat::g	model/ColorFloat.hpp	/^    float g;$/;"	m	class:ColorFloat	typeref:typename:float
+ColorFloat::r	model/ColorFloat.hpp	/^    float r;$/;"	m	class:ColorFloat	typeref:typename:float
+ColorFloat::readFrom	model/ColorFloat.cpp	/^ColorFloat ColorFloat::readFrom(InputStream& stream) {$/;"	f	class:ColorFloat	typeref:typename:ColorFloat
+ColorFloat::toString	model/ColorFloat.cpp	/^std::string ColorFloat::toString() const {$/;"	f	class:ColorFloat	typeref:typename:std::string
+ColorFloat::writeTo	model/ColorFloat.cpp	/^void ColorFloat::writeTo(OutputStream& stream) const {$/;"	f	class:ColorFloat	typeref:typename:void
+ColoredVertex	model/ColoredVertex.cpp	/^ColoredVertex::ColoredVertex() { }$/;"	f	class:ColoredVertex
+ColoredVertex	model/ColoredVertex.cpp	/^ColoredVertex::ColoredVertex(Vec2Float position, ColorFloat color) : position(position), color(c/;"	f	class:ColoredVertex
+ColoredVertex	model/ColoredVertex.hpp	/^class ColoredVertex {$/;"	c
+ColoredVertex::ColoredVertex	model/ColoredVertex.cpp	/^ColoredVertex::ColoredVertex() { }$/;"	f	class:ColoredVertex
+ColoredVertex::ColoredVertex	model/ColoredVertex.cpp	/^ColoredVertex::ColoredVertex(Vec2Float position, ColorFloat color) : position(position), color(c/;"	f	class:ColoredVertex
+ColoredVertex::color	model/ColoredVertex.hpp	/^    ColorFloat color;$/;"	m	class:ColoredVertex	typeref:typename:ColorFloat
+ColoredVertex::position	model/ColoredVertex.hpp	/^    Vec2Float position;$/;"	m	class:ColoredVertex	typeref:typename:Vec2Float
+ColoredVertex::readFrom	model/ColoredVertex.cpp	/^ColoredVertex ColoredVertex::readFrom(InputStream& stream) {$/;"	f	class:ColoredVertex	typeref:typename:ColoredVertex
+ColoredVertex::toString	model/ColoredVertex.cpp	/^std::string ColoredVertex::toString() const {$/;"	f	class:ColoredVertex	typeref:typename:std::string
+ColoredVertex::writeTo	model/ColoredVertex.cpp	/^void ColoredVertex::writeTo(OutputStream& stream) const {$/;"	f	class:ColoredVertex	typeref:typename:void
+CustomData	model/CustomData.hpp	/^class CustomData {$/;"	c
+CustomData::Line	model/CustomData.hpp	/^class CustomData::Line : public CustomData {$/;"	c	class:CustomData
+CustomData::Line::Line	model/CustomData.cpp	/^CustomData::Line::Line() { }$/;"	f	class:CustomData::Line
+CustomData::Line::Line	model/CustomData.cpp	/^CustomData::Line::Line(Vec2Float p1, Vec2Float p2, float width, ColorFloat color) : p1(p1), p2(p/;"	f	class:CustomData::Line
+CustomData::Line::TAG	model/CustomData.hpp	/^    static const int TAG = 2;$/;"	m	class:CustomData::Line	typeref:typename:const int
+CustomData::Line::color	model/CustomData.hpp	/^    ColorFloat color;$/;"	m	class:CustomData::Line	typeref:typename:ColorFloat
+CustomData::Line::p1	model/CustomData.hpp	/^    Vec2Float p1;$/;"	m	class:CustomData::Line	typeref:typename:Vec2Float
+CustomData::Line::p2	model/CustomData.hpp	/^    Vec2Float p2;$/;"	m	class:CustomData::Line	typeref:typename:Vec2Float
+CustomData::Line::readFrom	model/CustomData.cpp	/^CustomData::Line CustomData::Line::readFrom(InputStream& stream) {$/;"	f	class:CustomData::Line	typeref:typename:CustomData::Line
+CustomData::Line::toString	model/CustomData.cpp	/^std::string CustomData::Line::toString() const {$/;"	f	class:CustomData::Line	typeref:typename:std::string
+CustomData::Line::width	model/CustomData.hpp	/^    float width;$/;"	m	class:CustomData::Line	typeref:typename:float
+CustomData::Line::writeTo	model/CustomData.cpp	/^void CustomData::Line::writeTo(OutputStream& stream) const {$/;"	f	class:CustomData::Line	typeref:typename:void
+CustomData::Log	model/CustomData.hpp	/^class CustomData::Log : public CustomData {$/;"	c	class:CustomData
+CustomData::Log::Log	model/CustomData.cpp	/^CustomData::Log::Log() { }$/;"	f	class:CustomData::Log
+CustomData::Log::Log	model/CustomData.cpp	/^CustomData::Log::Log(std::string text) : text(text) { }$/;"	f	class:CustomData::Log
+CustomData::Log::TAG	model/CustomData.hpp	/^    static const int TAG = 0;$/;"	m	class:CustomData::Log	typeref:typename:const int
+CustomData::Log::readFrom	model/CustomData.cpp	/^CustomData::Log CustomData::Log::readFrom(InputStream& stream) {$/;"	f	class:CustomData::Log	typeref:typename:CustomData::Log
+CustomData::Log::text	model/CustomData.hpp	/^    std::string text;$/;"	m	class:CustomData::Log	typeref:typename:std::string
+CustomData::Log::toString	model/CustomData.cpp	/^std::string CustomData::Log::toString() const {$/;"	f	class:CustomData::Log	typeref:typename:std::string
+CustomData::Log::writeTo	model/CustomData.cpp	/^void CustomData::Log::writeTo(OutputStream& stream) const {$/;"	f	class:CustomData::Log	typeref:typename:void
+CustomData::PlacedText	model/CustomData.hpp	/^class CustomData::PlacedText : public CustomData {$/;"	c	class:CustomData
+CustomData::PlacedText::PlacedText	model/CustomData.cpp	/^CustomData::PlacedText::PlacedText() { }$/;"	f	class:CustomData::PlacedText
+CustomData::PlacedText::PlacedText	model/CustomData.cpp	/^CustomData::PlacedText::PlacedText(std::string text, Vec2Float pos, TextAlignment alignment, flo/;"	f	class:CustomData::PlacedText
+CustomData::PlacedText::TAG	model/CustomData.hpp	/^    static const int TAG = 4;$/;"	m	class:CustomData::PlacedText	typeref:typename:const int
+CustomData::PlacedText::alignment	model/CustomData.hpp	/^    TextAlignment alignment;$/;"	m	class:CustomData::PlacedText	typeref:typename:TextAlignment
+CustomData::PlacedText::color	model/CustomData.hpp	/^    ColorFloat color;$/;"	m	class:CustomData::PlacedText	typeref:typename:ColorFloat
+CustomData::PlacedText::pos	model/CustomData.hpp	/^    Vec2Float pos;$/;"	m	class:CustomData::PlacedText	typeref:typename:Vec2Float
+CustomData::PlacedText::readFrom	model/CustomData.cpp	/^CustomData::PlacedText CustomData::PlacedText::readFrom(InputStream& stream) {$/;"	f	class:CustomData::PlacedText	typeref:typename:CustomData::PlacedText
+CustomData::PlacedText::size	model/CustomData.hpp	/^    float size;$/;"	m	class:CustomData::PlacedText	typeref:typename:float
+CustomData::PlacedText::text	model/CustomData.hpp	/^    std::string text;$/;"	m	class:CustomData::PlacedText	typeref:typename:std::string
+CustomData::PlacedText::toString	model/CustomData.cpp	/^std::string CustomData::PlacedText::toString() const {$/;"	f	class:CustomData::PlacedText	typeref:typename:std::string
+CustomData::PlacedText::writeTo	model/CustomData.cpp	/^void CustomData::PlacedText::writeTo(OutputStream& stream) const {$/;"	f	class:CustomData::PlacedText	typeref:typename:void
+CustomData::Polygon	model/CustomData.hpp	/^class CustomData::Polygon : public CustomData {$/;"	c	class:CustomData
+CustomData::Polygon::Polygon	model/CustomData.cpp	/^CustomData::Polygon::Polygon() { }$/;"	f	class:CustomData::Polygon
+CustomData::Polygon::Polygon	model/CustomData.cpp	/^CustomData::Polygon::Polygon(std::vector<ColoredVertex> vertices) : vertices(vertices) { }$/;"	f	class:CustomData::Polygon
+CustomData::Polygon::TAG	model/CustomData.hpp	/^    static const int TAG = 3;$/;"	m	class:CustomData::Polygon	typeref:typename:const int
+CustomData::Polygon::readFrom	model/CustomData.cpp	/^CustomData::Polygon CustomData::Polygon::readFrom(InputStream& stream) {$/;"	f	class:CustomData::Polygon	typeref:typename:CustomData::Polygon
+CustomData::Polygon::toString	model/CustomData.cpp	/^std::string CustomData::Polygon::toString() const {$/;"	f	class:CustomData::Polygon	typeref:typename:std::string
+CustomData::Polygon::vertices	model/CustomData.hpp	/^    std::vector<ColoredVertex> vertices;$/;"	m	class:CustomData::Polygon	typeref:typename:std::vector<ColoredVertex>
+CustomData::Polygon::writeTo	model/CustomData.cpp	/^void CustomData::Polygon::writeTo(OutputStream& stream) const {$/;"	f	class:CustomData::Polygon	typeref:typename:void
+CustomData::Rect	model/CustomData.hpp	/^class CustomData::Rect : public CustomData {$/;"	c	class:CustomData
+CustomData::Rect::Rect	model/CustomData.cpp	/^CustomData::Rect::Rect() { }$/;"	f	class:CustomData::Rect
+CustomData::Rect::Rect	model/CustomData.cpp	/^CustomData::Rect::Rect(Vec2Float pos, Vec2Float size, ColorFloat color) : pos(pos), size(size), /;"	f	class:CustomData::Rect
+CustomData::Rect::TAG	model/CustomData.hpp	/^    static const int TAG = 1;$/;"	m	class:CustomData::Rect	typeref:typename:const int
+CustomData::Rect::color	model/CustomData.hpp	/^    ColorFloat color;$/;"	m	class:CustomData::Rect	typeref:typename:ColorFloat
+CustomData::Rect::pos	model/CustomData.hpp	/^    Vec2Float pos;$/;"	m	class:CustomData::Rect	typeref:typename:Vec2Float
+CustomData::Rect::readFrom	model/CustomData.cpp	/^CustomData::Rect CustomData::Rect::readFrom(InputStream& stream) {$/;"	f	class:CustomData::Rect	typeref:typename:CustomData::Rect
+CustomData::Rect::size	model/CustomData.hpp	/^    Vec2Float size;$/;"	m	class:CustomData::Rect	typeref:typename:Vec2Float
+CustomData::Rect::toString	model/CustomData.cpp	/^std::string CustomData::Rect::toString() const {$/;"	f	class:CustomData::Rect	typeref:typename:std::string
+CustomData::Rect::writeTo	model/CustomData.cpp	/^void CustomData::Rect::writeTo(OutputStream& stream) const {$/;"	f	class:CustomData::Rect	typeref:typename:void
+CustomData::readFrom	model/CustomData.cpp	/^std::shared_ptr<CustomData> CustomData::readFrom(InputStream& stream) {$/;"	f	class:CustomData	typeref:typename:std::shared_ptr<CustomData>
+CustomDataMessage	model/PlayerMessageGame.cpp	/^PlayerMessageGame::CustomDataMessage::CustomDataMessage() { }$/;"	f	class:PlayerMessageGame::CustomDataMessage
+CustomDataMessage	model/PlayerMessageGame.cpp	/^PlayerMessageGame::CustomDataMessage::CustomDataMessage(std::shared_ptr<CustomData> data) : data/;"	f	class:PlayerMessageGame::CustomDataMessage
+CustomDataMessage	model/PlayerMessageGame.hpp	/^class PlayerMessageGame::CustomDataMessage : public PlayerMessageGame {$/;"	c	class:PlayerMessageGame
+DEC	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#define DEC(/;"	d	file:
+DEC	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define DEC(/;"	d	file:
+Debug	Debug.cpp	/^Debug::Debug(const std::shared_ptr<OutputStream> &outputStream)$/;"	f	class:Debug
+Debug	Debug.hpp	/^class Debug {$/;"	c
+Debug.cpp.i	build/Makefile	/^Debug.cpp.i:$/;"	t
+Debug.cpp.o	build/Makefile	/^Debug.cpp.o:$/;"	t
+Debug.cpp.s	build/Makefile	/^Debug.cpp.s:$/;"	t
+Debug.i	build/Makefile	/^Debug.i: Debug.cpp.i$/;"	t
+Debug.o	build/Makefile	/^Debug.o: Debug.cpp.o$/;"	t
+Debug.s	build/Makefile	/^Debug.s: Debug.cpp.s$/;"	t
+Debug::Debug	Debug.cpp	/^Debug::Debug(const std::shared_ptr<OutputStream> &outputStream)$/;"	f	class:Debug
+Debug::draw	Debug.cpp	/^void Debug::draw(const CustomData &customData) {$/;"	f	class:Debug	typeref:typename:void
+Debug::outputStream	Debug.hpp	/^  std::shared_ptr<OutputStream> outputStream;$/;"	m	class:Debug	typeref:typename:std::shared_ptr<OutputStream>
+EMPTY	model/Tile.hpp	/^    EMPTY = 0,$/;"	e	enum:Tile
+EQUALS	build/Makefile	/^EQUALS = =$/;"	m
+EXPLODED	model/MineState.hpp	/^    EXPLODED = 3$/;"	e	enum:MineState
+ExplosionParams	model/ExplosionParams.cpp	/^ExplosionParams::ExplosionParams() { }$/;"	f	class:ExplosionParams
+ExplosionParams	model/ExplosionParams.cpp	/^ExplosionParams::ExplosionParams(double radius, int damage) : radius(radius), damage(damage) { }$/;"	f	class:ExplosionParams
+ExplosionParams	model/ExplosionParams.hpp	/^class ExplosionParams {$/;"	c
+ExplosionParams::ExplosionParams	model/ExplosionParams.cpp	/^ExplosionParams::ExplosionParams() { }$/;"	f	class:ExplosionParams
+ExplosionParams::ExplosionParams	model/ExplosionParams.cpp	/^ExplosionParams::ExplosionParams(double radius, int damage) : radius(radius), damage(damage) { }$/;"	f	class:ExplosionParams
+ExplosionParams::damage	model/ExplosionParams.hpp	/^    int damage;$/;"	m	class:ExplosionParams	typeref:typename:int
+ExplosionParams::radius	model/ExplosionParams.hpp	/^    double radius;$/;"	m	class:ExplosionParams	typeref:typename:double
+ExplosionParams::readFrom	model/ExplosionParams.cpp	/^ExplosionParams ExplosionParams::readFrom(InputStream& stream) {$/;"	f	class:ExplosionParams	typeref:typename:ExplosionParams
+ExplosionParams::toString	model/ExplosionParams.cpp	/^std::string ExplosionParams::toString() const {$/;"	f	class:ExplosionParams	typeref:typename:std::string
+ExplosionParams::writeTo	model/ExplosionParams.cpp	/^void ExplosionParams::writeTo(OutputStream& stream) const {$/;"	f	class:ExplosionParams	typeref:typename:void
+Game	model/Game.cpp	/^Game::Game() { }$/;"	f	class:Game
+Game	model/Game.cpp	/^Game::Game(int currentTick, Properties properties, Level level, std::vector<Player> players, std/;"	f	class:Game
+Game	model/Game.hpp	/^class Game {$/;"	c
+Game::Game	model/Game.cpp	/^Game::Game() { }$/;"	f	class:Game
+Game::Game	model/Game.cpp	/^Game::Game(int currentTick, Properties properties, Level level, std::vector<Player> players, std/;"	f	class:Game
+Game::bullets	model/Game.hpp	/^    std::vector<Bullet> bullets;$/;"	m	class:Game	typeref:typename:std::vector<Bullet>
+Game::currentTick	model/Game.hpp	/^    int currentTick;$/;"	m	class:Game	typeref:typename:int
+Game::level	model/Game.hpp	/^    Level level;$/;"	m	class:Game	typeref:typename:Level
+Game::lootBoxes	model/Game.hpp	/^    std::vector<LootBox> lootBoxes;$/;"	m	class:Game	typeref:typename:std::vector<LootBox>
+Game::mines	model/Game.hpp	/^    std::vector<Mine> mines;$/;"	m	class:Game	typeref:typename:std::vector<Mine>
+Game::players	model/Game.hpp	/^    std::vector<Player> players;$/;"	m	class:Game	typeref:typename:std::vector<Player>
+Game::properties	model/Game.hpp	/^    Properties properties;$/;"	m	class:Game	typeref:typename:Properties
+Game::readFrom	model/Game.cpp	/^Game Game::readFrom(InputStream& stream) {$/;"	f	class:Game	typeref:typename:Game
+Game::toString	model/Game.cpp	/^std::string Game::toString() const {$/;"	f	class:Game	typeref:typename:std::string
+Game::units	model/Game.hpp	/^    std::vector<Unit> units;$/;"	m	class:Game	typeref:typename:std::vector<Unit>
+Game::writeTo	model/Game.cpp	/^void Game::writeTo(OutputStream& stream) const {$/;"	f	class:Game	typeref:typename:void
+HEX	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#define HEX(/;"	d	file:
+HEX	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define HEX(/;"	d	file:
+HealthPack	model/Item.cpp	/^Item::HealthPack::HealthPack() { }$/;"	f	class:Item::HealthPack
+HealthPack	model/Item.cpp	/^Item::HealthPack::HealthPack(int health) : health(health) { }$/;"	f	class:Item::HealthPack
+HealthPack	model/Item.hpp	/^class Item::HealthPack : public Item {$/;"	c	class:Item
+IDLE	model/MineState.hpp	/^    IDLE = 1,$/;"	e	enum:MineState
+ID_VOID_MAIN	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^# define ID_VOID_MAIN$/;"	d	file:
+IS_LITTLE_ENDIAN_MACHINE	Stream.cpp	/^bool IS_LITTLE_ENDIAN_MACHINE = isLittleEndianMachine();$/;"	v	typeref:typename:bool
+InputStream	Stream.hpp	/^class InputStream {$/;"	c
+InputStream::readBool	Stream.cpp	/^bool InputStream::readBool() {$/;"	f	class:InputStream	typeref:typename:bool
+InputStream::readDouble	Stream.cpp	/^double InputStream::readDouble() {$/;"	f	class:InputStream	typeref:typename:double
+InputStream::readFloat	Stream.cpp	/^float InputStream::readFloat() {$/;"	f	class:InputStream	typeref:typename:float
+InputStream::readInt	Stream.cpp	/^int InputStream::readInt() {$/;"	f	class:InputStream	typeref:typename:int
+InputStream::readLongLong	Stream.cpp	/^long long InputStream::readLongLong() {$/;"	f	class:InputStream	typeref:typename:long long
+InputStream::readString	Stream.cpp	/^std::string InputStream::readString() {$/;"	f	class:InputStream	typeref:typename:std::string
+Item	model/Item.hpp	/^class Item {$/;"	c
+Item::HealthPack	model/Item.hpp	/^class Item::HealthPack : public Item {$/;"	c	class:Item
+Item::HealthPack::HealthPack	model/Item.cpp	/^Item::HealthPack::HealthPack() { }$/;"	f	class:Item::HealthPack
+Item::HealthPack::HealthPack	model/Item.cpp	/^Item::HealthPack::HealthPack(int health) : health(health) { }$/;"	f	class:Item::HealthPack
+Item::HealthPack::TAG	model/Item.hpp	/^    static const int TAG = 0;$/;"	m	class:Item::HealthPack	typeref:typename:const int
+Item::HealthPack::health	model/Item.hpp	/^    int health;$/;"	m	class:Item::HealthPack	typeref:typename:int
+Item::HealthPack::readFrom	model/Item.cpp	/^Item::HealthPack Item::HealthPack::readFrom(InputStream& stream) {$/;"	f	class:Item::HealthPack	typeref:typename:Item::HealthPack
+Item::HealthPack::toString	model/Item.cpp	/^std::string Item::HealthPack::toString() const {$/;"	f	class:Item::HealthPack	typeref:typename:std::string
+Item::HealthPack::writeTo	model/Item.cpp	/^void Item::HealthPack::writeTo(OutputStream& stream) const {$/;"	f	class:Item::HealthPack	typeref:typename:void
+Item::Mine	model/Item.hpp	/^class Item::Mine : public Item {$/;"	c	class:Item
+Item::Mine::Mine	model/Item.cpp	/^Item::Mine::Mine() { }$/;"	f	class:Item::Mine
+Item::Mine::TAG	model/Item.hpp	/^    static const int TAG = 2;$/;"	m	class:Item::Mine	typeref:typename:const int
+Item::Mine::readFrom	model/Item.cpp	/^Item::Mine Item::Mine::readFrom(InputStream& stream) {$/;"	f	class:Item::Mine	typeref:typename:Item::Mine
+Item::Mine::toString	model/Item.cpp	/^std::string Item::Mine::toString() const {$/;"	f	class:Item::Mine	typeref:typename:std::string
+Item::Mine::writeTo	model/Item.cpp	/^void Item::Mine::writeTo(OutputStream& stream) const {$/;"	f	class:Item::Mine	typeref:typename:void
+Item::Weapon	model/Item.hpp	/^class Item::Weapon : public Item {$/;"	c	class:Item
+Item::Weapon::TAG	model/Item.hpp	/^    static const int TAG = 1;$/;"	m	class:Item::Weapon	typeref:typename:const int
+Item::Weapon::Weapon	model/Item.cpp	/^Item::Weapon::Weapon() { }$/;"	f	class:Item::Weapon
+Item::Weapon::Weapon	model/Item.cpp	/^Item::Weapon::Weapon(WeaponType weaponType) : weaponType(weaponType) { }$/;"	f	class:Item::Weapon
+Item::Weapon::readFrom	model/Item.cpp	/^Item::Weapon Item::Weapon::readFrom(InputStream& stream) {$/;"	f	class:Item::Weapon	typeref:typename:Item::Weapon
+Item::Weapon::toString	model/Item.cpp	/^std::string Item::Weapon::toString() const {$/;"	f	class:Item::Weapon	typeref:typename:std::string
+Item::Weapon::weaponType	model/Item.hpp	/^    WeaponType weaponType;$/;"	m	class:Item::Weapon	typeref:typename:WeaponType
+Item::Weapon::writeTo	model/Item.cpp	/^void Item::Weapon::writeTo(OutputStream& stream) const {$/;"	f	class:Item::Weapon	typeref:typename:void
+Item::readFrom	model/Item.cpp	/^std::shared_ptr<Item> Item::readFrom(InputStream& stream) {$/;"	f	class:Item	typeref:typename:std::shared_ptr<Item>
+JUMP_PAD	model/Tile.hpp	/^    JUMP_PAD = 4$/;"	e	enum:Tile
+JumpState	model/JumpState.cpp	/^JumpState::JumpState() { }$/;"	f	class:JumpState
+JumpState	model/JumpState.cpp	/^JumpState::JumpState(bool canJump, double speed, double maxTime, bool canCancel) : canJump(canJu/;"	f	class:JumpState
+JumpState	model/JumpState.hpp	/^class JumpState {$/;"	c
+JumpState::JumpState	model/JumpState.cpp	/^JumpState::JumpState() { }$/;"	f	class:JumpState
+JumpState::JumpState	model/JumpState.cpp	/^JumpState::JumpState(bool canJump, double speed, double maxTime, bool canCancel) : canJump(canJu/;"	f	class:JumpState
+JumpState::canCancel	model/JumpState.hpp	/^    bool canCancel;$/;"	m	class:JumpState	typeref:typename:bool
+JumpState::canJump	model/JumpState.hpp	/^    bool canJump;$/;"	m	class:JumpState	typeref:typename:bool
+JumpState::maxTime	model/JumpState.hpp	/^    double maxTime;$/;"	m	class:JumpState	typeref:typename:double
+JumpState::readFrom	model/JumpState.cpp	/^JumpState JumpState::readFrom(InputStream& stream) {$/;"	f	class:JumpState	typeref:typename:JumpState
+JumpState::speed	model/JumpState.hpp	/^    double speed;$/;"	m	class:JumpState	typeref:typename:double
+JumpState::toString	model/JumpState.cpp	/^std::string JumpState::toString() const {$/;"	f	class:JumpState	typeref:typename:std::string
+JumpState::writeTo	model/JumpState.cpp	/^void JumpState::writeTo(OutputStream& stream) const {$/;"	f	class:JumpState	typeref:typename:void
+LADDER	model/Tile.hpp	/^    LADDER = 3,$/;"	e	enum:Tile
+LEFT	model/TextAlignment.hpp	/^    LEFT = 0,$/;"	e	enum:TextAlignment
+Level	model/Level.cpp	/^Level::Level() { }$/;"	f	class:Level
+Level	model/Level.cpp	/^Level::Level(std::vector<std::vector<Tile>> tiles) : tiles(tiles) { }$/;"	f	class:Level
+Level	model/Level.hpp	/^class Level {$/;"	c
+Level::Level	model/Level.cpp	/^Level::Level() { }$/;"	f	class:Level
+Level::Level	model/Level.cpp	/^Level::Level(std::vector<std::vector<Tile>> tiles) : tiles(tiles) { }$/;"	f	class:Level
+Level::readFrom	model/Level.cpp	/^Level Level::readFrom(InputStream& stream) {$/;"	f	class:Level	typeref:typename:Level
+Level::tiles	model/Level.hpp	/^    std::vector<std::vector<Tile>> tiles;$/;"	m	class:Level	typeref:typename:std::vector<std::vector<Tile>>
+Level::toString	model/Level.cpp	/^std::string Level::toString() const {$/;"	f	class:Level	typeref:typename:std::string
+Level::writeTo	model/Level.cpp	/^void Level::writeTo(OutputStream& stream) const {$/;"	f	class:Level	typeref:typename:void
+Line	model/CustomData.cpp	/^CustomData::Line::Line() { }$/;"	f	class:CustomData::Line
+Line	model/CustomData.cpp	/^CustomData::Line::Line(Vec2Float p1, Vec2Float p2, float width, ColorFloat color) : p1(p1), p2(p/;"	f	class:CustomData::Line
+Line	model/CustomData.hpp	/^class CustomData::Line : public CustomData {$/;"	c	class:CustomData
+Log	model/CustomData.cpp	/^CustomData::Log::Log() { }$/;"	f	class:CustomData::Log
+Log	model/CustomData.cpp	/^CustomData::Log::Log(std::string text) : text(text) { }$/;"	f	class:CustomData::Log
+Log	model/CustomData.hpp	/^class CustomData::Log : public CustomData {$/;"	c	class:CustomData
+LootBox	model/LootBox.cpp	/^LootBox::LootBox() { }$/;"	f	class:LootBox
+LootBox	model/LootBox.cpp	/^LootBox::LootBox(Vec2Double position, Vec2Double size, std::shared_ptr<Item> item) : position(po/;"	f	class:LootBox
+LootBox	model/LootBox.hpp	/^class LootBox {$/;"	c
+LootBox::LootBox	model/LootBox.cpp	/^LootBox::LootBox() { }$/;"	f	class:LootBox
+LootBox::LootBox	model/LootBox.cpp	/^LootBox::LootBox(Vec2Double position, Vec2Double size, std::shared_ptr<Item> item) : position(po/;"	f	class:LootBox
+LootBox::item	model/LootBox.hpp	/^    std::shared_ptr<Item> item;$/;"	m	class:LootBox	typeref:typename:std::shared_ptr<Item>
+LootBox::position	model/LootBox.hpp	/^    Vec2Double position;$/;"	m	class:LootBox	typeref:typename:Vec2Double
+LootBox::readFrom	model/LootBox.cpp	/^LootBox LootBox::readFrom(InputStream& stream) {$/;"	f	class:LootBox	typeref:typename:LootBox
+LootBox::size	model/LootBox.hpp	/^    Vec2Double size;$/;"	m	class:LootBox	typeref:typename:Vec2Double
+LootBox::toString	model/LootBox.cpp	/^std::string LootBox::toString() const {$/;"	f	class:LootBox	typeref:typename:std::string
+LootBox::writeTo	model/LootBox.cpp	/^void LootBox::writeTo(OutputStream& stream) const {$/;"	f	class:LootBox	typeref:typename:void
+MINGW	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^  set(MINGW 1)$/;"	v
+MINGW	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^  set(MINGW 1)$/;"	v
+Mine	model/Item.cpp	/^Item::Mine::Mine() { }$/;"	f	class:Item::Mine
+Mine	model/Item.hpp	/^class Item::Mine : public Item {$/;"	c	class:Item
+Mine	model/Mine.cpp	/^Mine::Mine() { }$/;"	f	class:Mine
+Mine	model/Mine.cpp	/^Mine::Mine(int playerId, Vec2Double position, Vec2Double size, MineState state, std::shared_ptr</;"	f	class:Mine
+Mine	model/Mine.hpp	/^class Mine {$/;"	c
+Mine::Mine	model/Mine.cpp	/^Mine::Mine() { }$/;"	f	class:Mine
+Mine::Mine	model/Mine.cpp	/^Mine::Mine(int playerId, Vec2Double position, Vec2Double size, MineState state, std::shared_ptr</;"	f	class:Mine
+Mine::explosionParams	model/Mine.hpp	/^    ExplosionParams explosionParams;$/;"	m	class:Mine	typeref:typename:ExplosionParams
+Mine::playerId	model/Mine.hpp	/^    int playerId;$/;"	m	class:Mine	typeref:typename:int
+Mine::position	model/Mine.hpp	/^    Vec2Double position;$/;"	m	class:Mine	typeref:typename:Vec2Double
+Mine::readFrom	model/Mine.cpp	/^Mine Mine::readFrom(InputStream& stream) {$/;"	f	class:Mine	typeref:typename:Mine
+Mine::size	model/Mine.hpp	/^    Vec2Double size;$/;"	m	class:Mine	typeref:typename:Vec2Double
+Mine::state	model/Mine.hpp	/^    MineState state;$/;"	m	class:Mine	typeref:typename:MineState
+Mine::timer	model/Mine.hpp	/^    std::shared_ptr<double> timer;$/;"	m	class:Mine	typeref:typename:std::shared_ptr<double>
+Mine::toString	model/Mine.cpp	/^std::string Mine::toString() const {$/;"	f	class:Mine	typeref:typename:std::string
+Mine::triggerRadius	model/Mine.hpp	/^    double triggerRadius;$/;"	m	class:Mine	typeref:typename:double
+Mine::writeTo	model/Mine.cpp	/^void Mine::writeTo(OutputStream& stream) const {$/;"	f	class:Mine	typeref:typename:void
+MineState	model/MineState.hpp	/^enum MineState {$/;"	g
+MyStrategy	MyStrategy.cpp	/^MyStrategy::MyStrategy() {}$/;"	f	class:MyStrategy
+MyStrategy	MyStrategy.hpp	/^class MyStrategy {$/;"	c
+MyStrategy.cpp.i	build/Makefile	/^MyStrategy.cpp.i:$/;"	t
+MyStrategy.cpp.o	build/Makefile	/^MyStrategy.cpp.o:$/;"	t
+MyStrategy.cpp.s	build/Makefile	/^MyStrategy.cpp.s:$/;"	t
+MyStrategy.i	build/Makefile	/^MyStrategy.i: MyStrategy.cpp.i$/;"	t
+MyStrategy.o	build/Makefile	/^MyStrategy.o: MyStrategy.cpp.o$/;"	t
+MyStrategy.s	build/Makefile	/^MyStrategy.s: MyStrategy.cpp.s$/;"	t
+MyStrategy::MyStrategy	MyStrategy.cpp	/^MyStrategy::MyStrategy() {}$/;"	f	class:MyStrategy
+MyStrategy::getAction	MyStrategy.cpp	/^UnitAction MyStrategy::getAction(const Unit &unit, const Game &game,$/;"	f	class:MyStrategy	typeref:typename:UnitAction
+OutputStream	Stream.hpp	/^class OutputStream {$/;"	c
+OutputStream::write	Stream.cpp	/^void OutputStream::write(bool value) {$/;"	f	class:OutputStream	typeref:typename:void
+OutputStream::write	Stream.cpp	/^void OutputStream::write(const std::string &value) {$/;"	f	class:OutputStream	typeref:typename:void
+OutputStream::write	Stream.cpp	/^void OutputStream::write(double value) {$/;"	f	class:OutputStream	typeref:typename:void
+OutputStream::write	Stream.cpp	/^void OutputStream::write(float value) {$/;"	f	class:OutputStream	typeref:typename:void
+OutputStream::write	Stream.cpp	/^void OutputStream::write(int value) {$/;"	f	class:OutputStream	typeref:typename:void
+OutputStream::write	Stream.cpp	/^void OutputStream::write(long long value) {$/;"	f	class:OutputStream	typeref:typename:void
+PISTOL	model/WeaponType.hpp	/^    PISTOL = 0,$/;"	e	enum:WeaponType
+PLATFORM	model/Tile.hpp	/^    PLATFORM = 2,$/;"	e	enum:Tile
+PLATFORM_ID	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID$/;"	d	file:
+PREPARING	model/MineState.hpp	/^    PREPARING = 0,$/;"	e	enum:MineState
+PROJECT_LIBS	CMakeLists.txt	/^    SET(PROJECT_LIBS Ws2_32.lib)$/;"	v
+PlacedText	model/CustomData.cpp	/^CustomData::PlacedText::PlacedText() { }$/;"	f	class:CustomData::PlacedText
+PlacedText	model/CustomData.cpp	/^CustomData::PlacedText::PlacedText(std::string text, Vec2Float pos, TextAlignment alignment, flo/;"	f	class:CustomData::PlacedText
+PlacedText	model/CustomData.hpp	/^class CustomData::PlacedText : public CustomData {$/;"	c	class:CustomData
+Player	model/Player.cpp	/^Player::Player() { }$/;"	f	class:Player
+Player	model/Player.cpp	/^Player::Player(int id, int score) : id(id), score(score) { }$/;"	f	class:Player
+Player	model/Player.hpp	/^class Player {$/;"	c
+Player::Player	model/Player.cpp	/^Player::Player() { }$/;"	f	class:Player
+Player::Player	model/Player.cpp	/^Player::Player(int id, int score) : id(id), score(score) { }$/;"	f	class:Player
+Player::id	model/Player.hpp	/^    int id;$/;"	m	class:Player	typeref:typename:int
+Player::operator ==	model/Player.cpp	/^bool Player::operator ==(const Player& other) const {$/;"	f	class:Player	typeref:typename:bool
+Player::readFrom	model/Player.cpp	/^Player Player::readFrom(InputStream& stream) {$/;"	f	class:Player	typeref:typename:Player
+Player::score	model/Player.hpp	/^    int score;$/;"	m	class:Player	typeref:typename:int
+Player::toString	model/Player.cpp	/^std::string Player::toString() const {$/;"	f	class:Player	typeref:typename:std::string
+Player::writeTo	model/Player.cpp	/^void Player::writeTo(OutputStream& stream) const {$/;"	f	class:Player	typeref:typename:void
+PlayerMessageGame	model/PlayerMessageGame.hpp	/^class PlayerMessageGame {$/;"	c
+PlayerMessageGame::ActionMessage	model/PlayerMessageGame.hpp	/^class PlayerMessageGame::ActionMessage : public PlayerMessageGame {$/;"	c	class:PlayerMessageGame
+PlayerMessageGame::ActionMessage::ActionMessage	model/PlayerMessageGame.cpp	/^PlayerMessageGame::ActionMessage::ActionMessage() { }$/;"	f	class:PlayerMessageGame::ActionMessage
+PlayerMessageGame::ActionMessage::ActionMessage	model/PlayerMessageGame.cpp	/^PlayerMessageGame::ActionMessage::ActionMessage(Versioned action) : action(action) { }$/;"	f	class:PlayerMessageGame::ActionMessage
+PlayerMessageGame::ActionMessage::TAG	model/PlayerMessageGame.hpp	/^    static const int TAG = 1;$/;"	m	class:PlayerMessageGame::ActionMessage	typeref:typename:const int
+PlayerMessageGame::ActionMessage::action	model/PlayerMessageGame.hpp	/^    Versioned action;$/;"	m	class:PlayerMessageGame::ActionMessage	typeref:typename:Versioned
+PlayerMessageGame::ActionMessage::readFrom	model/PlayerMessageGame.cpp	/^PlayerMessageGame::ActionMessage PlayerMessageGame::ActionMessage::readFrom(InputStream& stream)/;"	f	class:PlayerMessageGame::ActionMessage	typeref:typename:PlayerMessageGame::ActionMessage
+PlayerMessageGame::ActionMessage::toString	model/PlayerMessageGame.cpp	/^std::string PlayerMessageGame::ActionMessage::toString() const {$/;"	f	class:PlayerMessageGame::ActionMessage	typeref:typename:std::string
+PlayerMessageGame::ActionMessage::writeTo	model/PlayerMessageGame.cpp	/^void PlayerMessageGame::ActionMessage::writeTo(OutputStream& stream) const {$/;"	f	class:PlayerMessageGame::ActionMessage	typeref:typename:void
+PlayerMessageGame::CustomDataMessage	model/PlayerMessageGame.hpp	/^class PlayerMessageGame::CustomDataMessage : public PlayerMessageGame {$/;"	c	class:PlayerMessageGame
+PlayerMessageGame::CustomDataMessage::CustomDataMessage	model/PlayerMessageGame.cpp	/^PlayerMessageGame::CustomDataMessage::CustomDataMessage() { }$/;"	f	class:PlayerMessageGame::CustomDataMessage
+PlayerMessageGame::CustomDataMessage::CustomDataMessage	model/PlayerMessageGame.cpp	/^PlayerMessageGame::CustomDataMessage::CustomDataMessage(std::shared_ptr<CustomData> data) : data/;"	f	class:PlayerMessageGame::CustomDataMessage
+PlayerMessageGame::CustomDataMessage::TAG	model/PlayerMessageGame.hpp	/^    static const int TAG = 0;$/;"	m	class:PlayerMessageGame::CustomDataMessage	typeref:typename:const int
+PlayerMessageGame::CustomDataMessage::data	model/PlayerMessageGame.hpp	/^    std::shared_ptr<CustomData> data;$/;"	m	class:PlayerMessageGame::CustomDataMessage	typeref:typename:std::shared_ptr<CustomData>
+PlayerMessageGame::CustomDataMessage::readFrom	model/PlayerMessageGame.cpp	/^PlayerMessageGame::CustomDataMessage PlayerMessageGame::CustomDataMessage::readFrom(InputStream&/;"	f	class:PlayerMessageGame::CustomDataMessage	typeref:typename:PlayerMessageGame::CustomDataMessage
+PlayerMessageGame::CustomDataMessage::toString	model/PlayerMessageGame.cpp	/^std::string PlayerMessageGame::CustomDataMessage::toString() const {$/;"	f	class:PlayerMessageGame::CustomDataMessage	typeref:typename:std::string
+PlayerMessageGame::CustomDataMessage::writeTo	model/PlayerMessageGame.cpp	/^void PlayerMessageGame::CustomDataMessage::writeTo(OutputStream& stream) const {$/;"	f	class:PlayerMessageGame::CustomDataMessage	typeref:typename:void
+PlayerMessageGame::readFrom	model/PlayerMessageGame.cpp	/^std::shared_ptr<PlayerMessageGame> PlayerMessageGame::readFrom(InputStream& stream) {$/;"	f	class:PlayerMessageGame	typeref:typename:std::shared_ptr<PlayerMessageGame>
+PlayerView	model/PlayerView.cpp	/^PlayerView::PlayerView() { }$/;"	f	class:PlayerView
+PlayerView	model/PlayerView.cpp	/^PlayerView::PlayerView(int myId, Game game) : myId(myId), game(game) { }$/;"	f	class:PlayerView
+PlayerView	model/PlayerView.hpp	/^class PlayerView {$/;"	c
+PlayerView::PlayerView	model/PlayerView.cpp	/^PlayerView::PlayerView() { }$/;"	f	class:PlayerView
+PlayerView::PlayerView	model/PlayerView.cpp	/^PlayerView::PlayerView(int myId, Game game) : myId(myId), game(game) { }$/;"	f	class:PlayerView
+PlayerView::game	model/PlayerView.hpp	/^    Game game;$/;"	m	class:PlayerView	typeref:typename:Game
+PlayerView::myId	model/PlayerView.hpp	/^    int myId;$/;"	m	class:PlayerView	typeref:typename:int
+PlayerView::readFrom	model/PlayerView.cpp	/^PlayerView PlayerView::readFrom(InputStream& stream) {$/;"	f	class:PlayerView	typeref:typename:PlayerView
+PlayerView::toString	model/PlayerView.cpp	/^std::string PlayerView::toString() const {$/;"	f	class:PlayerView	typeref:typename:std::string
+PlayerView::writeTo	model/PlayerView.cpp	/^void PlayerView::writeTo(OutputStream& stream) const {$/;"	f	class:PlayerView	typeref:typename:void
+Polygon	model/CustomData.cpp	/^CustomData::Polygon::Polygon() { }$/;"	f	class:CustomData::Polygon
+Polygon	model/CustomData.cpp	/^CustomData::Polygon::Polygon(std::vector<ColoredVertex> vertices) : vertices(vertices) { }$/;"	f	class:CustomData::Polygon
+Polygon	model/CustomData.hpp	/^class CustomData::Polygon : public CustomData {$/;"	c	class:CustomData
+Properties	model/Properties.cpp	/^Properties::Properties() { }$/;"	f	class:Properties
+Properties	model/Properties.cpp	/^Properties::Properties(int maxTickCount, int teamSize, double ticksPerSecond, int updatesPerTick/;"	f	class:Properties
+Properties	model/Properties.hpp	/^class Properties {$/;"	c
+Properties::Properties	model/Properties.cpp	/^Properties::Properties() { }$/;"	f	class:Properties
+Properties::Properties	model/Properties.cpp	/^Properties::Properties(int maxTickCount, int teamSize, double ticksPerSecond, int updatesPerTick/;"	f	class:Properties
+Properties::healthPackHealth	model/Properties.hpp	/^    int healthPackHealth;$/;"	m	class:Properties	typeref:typename:int
+Properties::jumpPadJumpSpeed	model/Properties.hpp	/^    double jumpPadJumpSpeed;$/;"	m	class:Properties	typeref:typename:double
+Properties::jumpPadJumpTime	model/Properties.hpp	/^    double jumpPadJumpTime;$/;"	m	class:Properties	typeref:typename:double
+Properties::killScore	model/Properties.hpp	/^    int killScore;$/;"	m	class:Properties	typeref:typename:int
+Properties::lootBoxSize	model/Properties.hpp	/^    Vec2Double lootBoxSize;$/;"	m	class:Properties	typeref:typename:Vec2Double
+Properties::maxTickCount	model/Properties.hpp	/^    int maxTickCount;$/;"	m	class:Properties	typeref:typename:int
+Properties::mineExplosionParams	model/Properties.hpp	/^    ExplosionParams mineExplosionParams;$/;"	m	class:Properties	typeref:typename:ExplosionParams
+Properties::minePrepareTime	model/Properties.hpp	/^    double minePrepareTime;$/;"	m	class:Properties	typeref:typename:double
+Properties::mineSize	model/Properties.hpp	/^    Vec2Double mineSize;$/;"	m	class:Properties	typeref:typename:Vec2Double
+Properties::mineTriggerRadius	model/Properties.hpp	/^    double mineTriggerRadius;$/;"	m	class:Properties	typeref:typename:double
+Properties::mineTriggerTime	model/Properties.hpp	/^    double mineTriggerTime;$/;"	m	class:Properties	typeref:typename:double
+Properties::readFrom	model/Properties.cpp	/^Properties Properties::readFrom(InputStream& stream) {$/;"	f	class:Properties	typeref:typename:Properties
+Properties::teamSize	model/Properties.hpp	/^    int teamSize;$/;"	m	class:Properties	typeref:typename:int
+Properties::ticksPerSecond	model/Properties.hpp	/^    double ticksPerSecond;$/;"	m	class:Properties	typeref:typename:double
+Properties::toString	model/Properties.cpp	/^std::string Properties::toString() const {$/;"	f	class:Properties	typeref:typename:std::string
+Properties::unitFallSpeed	model/Properties.hpp	/^    double unitFallSpeed;$/;"	m	class:Properties	typeref:typename:double
+Properties::unitJumpSpeed	model/Properties.hpp	/^    double unitJumpSpeed;$/;"	m	class:Properties	typeref:typename:double
+Properties::unitJumpTime	model/Properties.hpp	/^    double unitJumpTime;$/;"	m	class:Properties	typeref:typename:double
+Properties::unitMaxHealth	model/Properties.hpp	/^    int unitMaxHealth;$/;"	m	class:Properties	typeref:typename:int
+Properties::unitMaxHorizontalSpeed	model/Properties.hpp	/^    double unitMaxHorizontalSpeed;$/;"	m	class:Properties	typeref:typename:double
+Properties::unitSize	model/Properties.hpp	/^    Vec2Double unitSize;$/;"	m	class:Properties	typeref:typename:Vec2Double
+Properties::updatesPerTick	model/Properties.hpp	/^    int updatesPerTick;$/;"	m	class:Properties	typeref:typename:int
+Properties::weaponParams	model/Properties.hpp	/^    std::unordered_map<WeaponType, WeaponParams> weaponParams;$/;"	m	class:Properties	typeref:typename:std::unordered_map<WeaponType,WeaponParams>
+Properties::writeTo	model/Properties.cpp	/^void Properties::writeTo(OutputStream& stream) const {$/;"	f	class:Properties	typeref:typename:void
+RECV_SEND_T	TcpStream.cpp	/^typedef int RECV_SEND_T;$/;"	t	typeref:typename:int	file:
+RECV_SEND_T	TcpStream.cpp	/^typedef ssize_t RECV_SEND_T;$/;"	t	typeref:typename:ssize_t	file:
+RIGHT	model/TextAlignment.hpp	/^    RIGHT = 2$/;"	e	enum:TextAlignment
+RM	build/Makefile	/^RM = \/usr\/local\/Cellar\/cmake\/3.16.2\/bin\/cmake -E remove -f$/;"	m
+ROCKET_LAUNCHER	model/WeaponType.hpp	/^    ROCKET_LAUNCHER = 2$/;"	e	enum:WeaponType
+Rect	model/CustomData.cpp	/^CustomData::Rect::Rect() { }$/;"	f	class:CustomData::Rect
+Rect	model/CustomData.cpp	/^CustomData::Rect::Rect(Vec2Float pos, Vec2Float size, ColorFloat color) : pos(pos), size(size), /;"	f	class:CustomData::Rect
+Rect	model/CustomData.hpp	/^class CustomData::Rect : public CustomData {$/;"	c	class:CustomData
+Runner	main.cpp	/^  Runner(const std::string &host, int port, const std::string &token) {$/;"	f	class:Runner	file:
+Runner	main.cpp	/^class Runner {$/;"	c	file:
+Runner::Runner	main.cpp	/^  Runner(const std::string &host, int port, const std::string &token) {$/;"	f	class:Runner	file:
+Runner::inputStream	main.cpp	/^  std::shared_ptr<InputStream> inputStream;$/;"	m	class:Runner	typeref:typename:std::shared_ptr<InputStream>	file:
+Runner::outputStream	main.cpp	/^  std::shared_ptr<OutputStream> outputStream;$/;"	m	class:Runner	typeref:typename:std::shared_ptr<OutputStream>	file:
+Runner::run	main.cpp	/^  void run() {$/;"	f	class:Runner	typeref:typename:void	file:
+SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIMULATE_ID	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SOCKET	TcpStream.hpp	/^typedef int SOCKET;$/;"	t	typeref:typename:int
+STRINGIFY	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY_HELPER(/;"	d	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY_HELPER(/;"	d	file:
+SUFFIXES	build/Makefile	/^SUFFIXES =$/;"	m
+ServerMessageGame	model/ServerMessageGame.cpp	/^ServerMessageGame::ServerMessageGame() { }$/;"	f	class:ServerMessageGame
+ServerMessageGame	model/ServerMessageGame.cpp	/^ServerMessageGame::ServerMessageGame(std::shared_ptr<PlayerView> playerView) : playerView(player/;"	f	class:ServerMessageGame
+ServerMessageGame	model/ServerMessageGame.hpp	/^class ServerMessageGame {$/;"	c
+ServerMessageGame::ServerMessageGame	model/ServerMessageGame.cpp	/^ServerMessageGame::ServerMessageGame() { }$/;"	f	class:ServerMessageGame
+ServerMessageGame::ServerMessageGame	model/ServerMessageGame.cpp	/^ServerMessageGame::ServerMessageGame(std::shared_ptr<PlayerView> playerView) : playerView(player/;"	f	class:ServerMessageGame
+ServerMessageGame::playerView	model/ServerMessageGame.hpp	/^    std::shared_ptr<PlayerView> playerView;$/;"	m	class:ServerMessageGame	typeref:typename:std::shared_ptr<PlayerView>
+ServerMessageGame::readFrom	model/ServerMessageGame.cpp	/^ServerMessageGame ServerMessageGame::readFrom(InputStream& stream) {$/;"	f	class:ServerMessageGame	typeref:typename:ServerMessageGame
+ServerMessageGame::toString	model/ServerMessageGame.cpp	/^std::string ServerMessageGame::toString() const {$/;"	f	class:ServerMessageGame	typeref:typename:std::string
+ServerMessageGame::writeTo	model/ServerMessageGame.cpp	/^void ServerMessageGame::writeTo(OutputStream& stream) const {$/;"	f	class:ServerMessageGame	typeref:typename:void
+Stream.cpp.i	build/Makefile	/^Stream.cpp.i:$/;"	t
+Stream.cpp.o	build/Makefile	/^Stream.cpp.o:$/;"	t
+Stream.cpp.s	build/Makefile	/^Stream.cpp.s:$/;"	t
+Stream.i	build/Makefile	/^Stream.i: Stream.cpp.i$/;"	t
+Stream.o	build/Makefile	/^Stream.o: Stream.cpp.o$/;"	t
+Stream.s	build/Makefile	/^Stream.s: Stream.cpp.s$/;"	t
+TAG	model/CustomData.hpp	/^    static const int TAG = 0;$/;"	m	class:CustomData::Log	typeref:typename:const int
+TAG	model/CustomData.hpp	/^    static const int TAG = 1;$/;"	m	class:CustomData::Rect	typeref:typename:const int
+TAG	model/CustomData.hpp	/^    static const int TAG = 2;$/;"	m	class:CustomData::Line	typeref:typename:const int
+TAG	model/CustomData.hpp	/^    static const int TAG = 3;$/;"	m	class:CustomData::Polygon	typeref:typename:const int
+TAG	model/CustomData.hpp	/^    static const int TAG = 4;$/;"	m	class:CustomData::PlacedText	typeref:typename:const int
+TAG	model/Item.hpp	/^    static const int TAG = 0;$/;"	m	class:Item::HealthPack	typeref:typename:const int
+TAG	model/Item.hpp	/^    static const int TAG = 1;$/;"	m	class:Item::Weapon	typeref:typename:const int
+TAG	model/Item.hpp	/^    static const int TAG = 2;$/;"	m	class:Item::Mine	typeref:typename:const int
+TAG	model/PlayerMessageGame.hpp	/^    static const int TAG = 0;$/;"	m	class:PlayerMessageGame::CustomDataMessage	typeref:typename:const int
+TAG	model/PlayerMessageGame.hpp	/^    static const int TAG = 1;$/;"	m	class:PlayerMessageGame::ActionMessage	typeref:typename:const int
+TRIGGERED	model/MineState.hpp	/^    TRIGGERED = 2,$/;"	e	enum:MineState
+TcpInputStream	TcpStream.cpp	/^  TcpInputStream(std::shared_ptr<TcpStream> tcpStream)$/;"	f	class:TcpInputStream	file:
+TcpInputStream	TcpStream.cpp	/^class TcpInputStream : public InputStream {$/;"	c	file:
+TcpInputStream::BUFFER_CAPACITY	TcpStream.cpp	/^  static const size_t BUFFER_CAPACITY = 8 * 1024;$/;"	m	class:TcpInputStream	typeref:typename:const size_t	file:
+TcpInputStream::TcpInputStream	TcpStream.cpp	/^  TcpInputStream(std::shared_ptr<TcpStream> tcpStream)$/;"	f	class:TcpInputStream	file:
+TcpInputStream::buffer	TcpStream.cpp	/^  char buffer[BUFFER_CAPACITY];$/;"	m	class:TcpInputStream	typeref:typename:char[]	file:
+TcpInputStream::bufferPos	TcpStream.cpp	/^  size_t bufferPos;$/;"	m	class:TcpInputStream	typeref:typename:size_t	file:
+TcpInputStream::bufferSize	TcpStream.cpp	/^  size_t bufferSize;$/;"	m	class:TcpInputStream	typeref:typename:size_t	file:
+TcpInputStream::readBytes	TcpStream.cpp	/^  void readBytes(char *buffer, size_t byteCount) {$/;"	f	class:TcpInputStream	typeref:typename:void	file:
+TcpInputStream::tcpStream	TcpStream.cpp	/^  std::shared_ptr<TcpStream> tcpStream;$/;"	m	class:TcpInputStream	typeref:typename:std::shared_ptr<TcpStream>	file:
+TcpOutputStream	TcpStream.cpp	/^  TcpOutputStream(std::shared_ptr<TcpStream> tcpStream)$/;"	f	class:TcpOutputStream	file:
+TcpOutputStream	TcpStream.cpp	/^class TcpOutputStream : public OutputStream {$/;"	c	file:
+TcpOutputStream::BUFFER_CAPACITY	TcpStream.cpp	/^  static const size_t BUFFER_CAPACITY = 8 * 1024;$/;"	m	class:TcpOutputStream	typeref:typename:const size_t	file:
+TcpOutputStream::TcpOutputStream	TcpStream.cpp	/^  TcpOutputStream(std::shared_ptr<TcpStream> tcpStream)$/;"	f	class:TcpOutputStream	file:
+TcpOutputStream::buffer	TcpStream.cpp	/^  char buffer[BUFFER_CAPACITY];$/;"	m	class:TcpOutputStream	typeref:typename:char[]	file:
+TcpOutputStream::bufferPos	TcpStream.cpp	/^  size_t bufferPos;$/;"	m	class:TcpOutputStream	typeref:typename:size_t	file:
+TcpOutputStream::bufferSize	TcpStream.cpp	/^  size_t bufferSize;$/;"	m	class:TcpOutputStream	typeref:typename:size_t	file:
+TcpOutputStream::flush	TcpStream.cpp	/^  void flush() {$/;"	f	class:TcpOutputStream	typeref:typename:void	file:
+TcpOutputStream::tcpStream	TcpStream.cpp	/^  std::shared_ptr<TcpStream> tcpStream;$/;"	m	class:TcpOutputStream	typeref:typename:std::shared_ptr<TcpStream>	file:
+TcpOutputStream::writeBytes	TcpStream.cpp	/^  void writeBytes(const char *buffer, size_t byteCount) {$/;"	f	class:TcpOutputStream	typeref:typename:void	file:
+TcpStream	TcpStream.cpp	/^TcpStream::TcpStream(const std::string &host, int port) {$/;"	f	class:TcpStream
+TcpStream	TcpStream.hpp	/^class TcpStream {$/;"	c
+TcpStream.cpp.i	build/Makefile	/^TcpStream.cpp.i:$/;"	t
+TcpStream.cpp.o	build/Makefile	/^TcpStream.cpp.o:$/;"	t
+TcpStream.cpp.s	build/Makefile	/^TcpStream.cpp.s:$/;"	t
+TcpStream.i	build/Makefile	/^TcpStream.i: TcpStream.cpp.i$/;"	t
+TcpStream.o	build/Makefile	/^TcpStream.o: TcpStream.cpp.o$/;"	t
+TcpStream.s	build/Makefile	/^TcpStream.s: TcpStream.cpp.s$/;"	t
+TcpStream::TcpStream	TcpStream.cpp	/^TcpStream::TcpStream(const std::string &host, int port) {$/;"	f	class:TcpStream
+TcpStream::sock	TcpStream.hpp	/^  SOCKET sock;$/;"	m	class:TcpStream	typeref:typename:SOCKET
+TextAlignment	model/TextAlignment.hpp	/^enum TextAlignment {$/;"	g
+Tile	model/Tile.hpp	/^enum Tile {$/;"	g
+UNIX	build/CMakeFiles/3.16.2/CMakeCCompiler.cmake	/^  set(UNIX 1)$/;"	v
+UNIX	build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake	/^  set(UNIX 1)$/;"	v
+Unit	model/Unit.cpp	/^Unit::Unit() { }$/;"	f	class:Unit
+Unit	model/Unit.cpp	/^Unit::Unit(int playerId, int id, int health, Vec2Double position, Vec2Double size, JumpState jum/;"	f	class:Unit
+Unit	model/Unit.hpp	/^class Unit {$/;"	c
+Unit::Unit	model/Unit.cpp	/^Unit::Unit() { }$/;"	f	class:Unit
+Unit::Unit	model/Unit.cpp	/^Unit::Unit(int playerId, int id, int health, Vec2Double position, Vec2Double size, JumpState jum/;"	f	class:Unit
+Unit::health	model/Unit.hpp	/^    int health;$/;"	m	class:Unit	typeref:typename:int
+Unit::id	model/Unit.hpp	/^    int id;$/;"	m	class:Unit	typeref:typename:int
+Unit::jumpState	model/Unit.hpp	/^    JumpState jumpState;$/;"	m	class:Unit	typeref:typename:JumpState
+Unit::mines	model/Unit.hpp	/^    int mines;$/;"	m	class:Unit	typeref:typename:int
+Unit::onGround	model/Unit.hpp	/^    bool onGround;$/;"	m	class:Unit	typeref:typename:bool
+Unit::onLadder	model/Unit.hpp	/^    bool onLadder;$/;"	m	class:Unit	typeref:typename:bool
+Unit::playerId	model/Unit.hpp	/^    int playerId;$/;"	m	class:Unit	typeref:typename:int
+Unit::position	model/Unit.hpp	/^    Vec2Double position;$/;"	m	class:Unit	typeref:typename:Vec2Double
+Unit::readFrom	model/Unit.cpp	/^Unit Unit::readFrom(InputStream& stream) {$/;"	f	class:Unit	typeref:typename:Unit
+Unit::size	model/Unit.hpp	/^    Vec2Double size;$/;"	m	class:Unit	typeref:typename:Vec2Double
+Unit::stand	model/Unit.hpp	/^    bool stand;$/;"	m	class:Unit	typeref:typename:bool
+Unit::toString	model/Unit.cpp	/^std::string Unit::toString() const {$/;"	f	class:Unit	typeref:typename:std::string
+Unit::walkedRight	model/Unit.hpp	/^    bool walkedRight;$/;"	m	class:Unit	typeref:typename:bool
+Unit::weapon	model/Unit.hpp	/^    std::shared_ptr<Weapon> weapon;$/;"	m	class:Unit	typeref:typename:std::shared_ptr<Weapon>
+Unit::writeTo	model/Unit.cpp	/^void Unit::writeTo(OutputStream& stream) const {$/;"	f	class:Unit	typeref:typename:void
+UnitAction	model/UnitAction.cpp	/^UnitAction::UnitAction() { }$/;"	f	class:UnitAction
+UnitAction	model/UnitAction.cpp	/^UnitAction::UnitAction(double velocity, bool jump, bool jumpDown, Vec2Double aim, bool shoot, bo/;"	f	class:UnitAction
+UnitAction	model/UnitAction.hpp	/^class UnitAction {$/;"	c
+UnitAction::UnitAction	model/UnitAction.cpp	/^UnitAction::UnitAction() { }$/;"	f	class:UnitAction
+UnitAction::UnitAction	model/UnitAction.cpp	/^UnitAction::UnitAction(double velocity, bool jump, bool jumpDown, Vec2Double aim, bool shoot, bo/;"	f	class:UnitAction
+UnitAction::aim	model/UnitAction.hpp	/^    Vec2Double aim;$/;"	m	class:UnitAction	typeref:typename:Vec2Double
+UnitAction::jump	model/UnitAction.hpp	/^    bool jump;$/;"	m	class:UnitAction	typeref:typename:bool
+UnitAction::jumpDown	model/UnitAction.hpp	/^    bool jumpDown;$/;"	m	class:UnitAction	typeref:typename:bool
+UnitAction::plantMine	model/UnitAction.hpp	/^    bool plantMine;$/;"	m	class:UnitAction	typeref:typename:bool
+UnitAction::readFrom	model/UnitAction.cpp	/^UnitAction UnitAction::readFrom(InputStream& stream) {$/;"	f	class:UnitAction	typeref:typename:UnitAction
+UnitAction::reload	model/UnitAction.hpp	/^    bool reload;$/;"	m	class:UnitAction	typeref:typename:bool
+UnitAction::shoot	model/UnitAction.hpp	/^    bool shoot;$/;"	m	class:UnitAction	typeref:typename:bool
+UnitAction::swapWeapon	model/UnitAction.hpp	/^    bool swapWeapon;$/;"	m	class:UnitAction	typeref:typename:bool
+UnitAction::toString	model/UnitAction.cpp	/^std::string UnitAction::toString() const {$/;"	f	class:UnitAction	typeref:typename:std::string
+UnitAction::velocity	model/UnitAction.hpp	/^    double velocity;$/;"	m	class:UnitAction	typeref:typename:double
+UnitAction::writeTo	model/UnitAction.cpp	/^void UnitAction::writeTo(OutputStream& stream) const {$/;"	f	class:UnitAction	typeref:typename:void
+Vec2Double	model/Vec2Double.cpp	/^Vec2Double::Vec2Double() { }$/;"	f	class:Vec2Double
+Vec2Double	model/Vec2Double.cpp	/^Vec2Double::Vec2Double(double x, double y) : x(x), y(y) { }$/;"	f	class:Vec2Double
+Vec2Double	model/Vec2Double.hpp	/^class Vec2Double {$/;"	c
+Vec2Double::Vec2Double	model/Vec2Double.cpp	/^Vec2Double::Vec2Double() { }$/;"	f	class:Vec2Double
+Vec2Double::Vec2Double	model/Vec2Double.cpp	/^Vec2Double::Vec2Double(double x, double y) : x(x), y(y) { }$/;"	f	class:Vec2Double
+Vec2Double::readFrom	model/Vec2Double.cpp	/^Vec2Double Vec2Double::readFrom(InputStream& stream) {$/;"	f	class:Vec2Double	typeref:typename:Vec2Double
+Vec2Double::toString	model/Vec2Double.cpp	/^std::string Vec2Double::toString() const {$/;"	f	class:Vec2Double	typeref:typename:std::string
+Vec2Double::writeTo	model/Vec2Double.cpp	/^void Vec2Double::writeTo(OutputStream& stream) const {$/;"	f	class:Vec2Double	typeref:typename:void
+Vec2Double::x	model/Vec2Double.hpp	/^    double x;$/;"	m	class:Vec2Double	typeref:typename:double
+Vec2Double::y	model/Vec2Double.hpp	/^    double y;$/;"	m	class:Vec2Double	typeref:typename:double
+Vec2Float	model/Vec2Float.cpp	/^Vec2Float::Vec2Float() { }$/;"	f	class:Vec2Float
+Vec2Float	model/Vec2Float.cpp	/^Vec2Float::Vec2Float(float x, float y) : x(x), y(y) { }$/;"	f	class:Vec2Float
+Vec2Float	model/Vec2Float.hpp	/^class Vec2Float {$/;"	c
+Vec2Float::Vec2Float	model/Vec2Float.cpp	/^Vec2Float::Vec2Float() { }$/;"	f	class:Vec2Float
+Vec2Float::Vec2Float	model/Vec2Float.cpp	/^Vec2Float::Vec2Float(float x, float y) : x(x), y(y) { }$/;"	f	class:Vec2Float
+Vec2Float::readFrom	model/Vec2Float.cpp	/^Vec2Float Vec2Float::readFrom(InputStream& stream) {$/;"	f	class:Vec2Float	typeref:typename:Vec2Float
+Vec2Float::toString	model/Vec2Float.cpp	/^std::string Vec2Float::toString() const {$/;"	f	class:Vec2Float	typeref:typename:std::string
+Vec2Float::writeTo	model/Vec2Float.cpp	/^void Vec2Float::writeTo(OutputStream& stream) const {$/;"	f	class:Vec2Float	typeref:typename:void
+Vec2Float::x	model/Vec2Float.hpp	/^    float x;$/;"	m	class:Vec2Float	typeref:typename:float
+Vec2Float::y	model/Vec2Float.hpp	/^    float y;$/;"	m	class:Vec2Float	typeref:typename:float
+Versioned	model/Versioned.cpp	/^Versioned::Versioned() { }$/;"	f	class:Versioned
+Versioned	model/Versioned.cpp	/^Versioned::Versioned(std::unordered_map<int, UnitAction> inner) : inner(inner) { }$/;"	f	class:Versioned
+Versioned	model/Versioned.hpp	/^class Versioned {$/;"	c
+Versioned::Versioned	model/Versioned.cpp	/^Versioned::Versioned() { }$/;"	f	class:Versioned
+Versioned::Versioned	model/Versioned.cpp	/^Versioned::Versioned(std::unordered_map<int, UnitAction> inner) : inner(inner) { }$/;"	f	class:Versioned
+Versioned::inner	model/Versioned.hpp	/^    std::unordered_map<int, UnitAction> inner;$/;"	m	class:Versioned	typeref:typename:std::unordered_map<int,UnitAction>
+Versioned::readFrom	model/Versioned.cpp	/^Versioned Versioned::readFrom(InputStream& stream) {$/;"	f	class:Versioned	typeref:typename:Versioned
+Versioned::toString	model/Versioned.cpp	/^std::string Versioned::toString() const {$/;"	f	class:Versioned	typeref:typename:std::string
+Versioned::writeTo	model/Versioned.cpp	/^void Versioned::writeTo(OutputStream& stream) const {$/;"	f	class:Versioned	typeref:typename:void
+WALL	model/Tile.hpp	/^    WALL = 1,$/;"	e	enum:Tile
+Weapon	model/Item.cpp	/^Item::Weapon::Weapon() { }$/;"	f	class:Item::Weapon
+Weapon	model/Item.cpp	/^Item::Weapon::Weapon(WeaponType weaponType) : weaponType(weaponType) { }$/;"	f	class:Item::Weapon
+Weapon	model/Item.hpp	/^class Item::Weapon : public Item {$/;"	c	class:Item
+Weapon	model/Weapon.cpp	/^Weapon::Weapon() { }$/;"	f	class:Weapon
+Weapon	model/Weapon.cpp	/^Weapon::Weapon(WeaponType typ, WeaponParams params, int magazine, bool wasShooting, double sprea/;"	f	class:Weapon
+Weapon	model/Weapon.hpp	/^class Weapon {$/;"	c
+Weapon::Weapon	model/Weapon.cpp	/^Weapon::Weapon() { }$/;"	f	class:Weapon
+Weapon::Weapon	model/Weapon.cpp	/^Weapon::Weapon(WeaponType typ, WeaponParams params, int magazine, bool wasShooting, double sprea/;"	f	class:Weapon
+Weapon::fireTimer	model/Weapon.hpp	/^    std::shared_ptr<double> fireTimer;$/;"	m	class:Weapon	typeref:typename:std::shared_ptr<double>
+Weapon::lastAngle	model/Weapon.hpp	/^    std::shared_ptr<double> lastAngle;$/;"	m	class:Weapon	typeref:typename:std::shared_ptr<double>
+Weapon::lastFireTick	model/Weapon.hpp	/^    std::shared_ptr<int> lastFireTick;$/;"	m	class:Weapon	typeref:typename:std::shared_ptr<int>
+Weapon::magazine	model/Weapon.hpp	/^    int magazine;$/;"	m	class:Weapon	typeref:typename:int
+Weapon::params	model/Weapon.hpp	/^    WeaponParams params;$/;"	m	class:Weapon	typeref:typename:WeaponParams
+Weapon::readFrom	model/Weapon.cpp	/^Weapon Weapon::readFrom(InputStream& stream) {$/;"	f	class:Weapon	typeref:typename:Weapon
+Weapon::spread	model/Weapon.hpp	/^    double spread;$/;"	m	class:Weapon	typeref:typename:double
+Weapon::toString	model/Weapon.cpp	/^std::string Weapon::toString() const {$/;"	f	class:Weapon	typeref:typename:std::string
+Weapon::typ	model/Weapon.hpp	/^    WeaponType typ;$/;"	m	class:Weapon	typeref:typename:WeaponType
+Weapon::wasShooting	model/Weapon.hpp	/^    bool wasShooting;$/;"	m	class:Weapon	typeref:typename:bool
+Weapon::writeTo	model/Weapon.cpp	/^void Weapon::writeTo(OutputStream& stream) const {$/;"	f	class:Weapon	typeref:typename:void
+WeaponParams	model/WeaponParams.cpp	/^WeaponParams::WeaponParams() { }$/;"	f	class:WeaponParams
+WeaponParams	model/WeaponParams.cpp	/^WeaponParams::WeaponParams(int magazineSize, double fireRate, double reloadTime, double minSprea/;"	f	class:WeaponParams
+WeaponParams	model/WeaponParams.hpp	/^class WeaponParams {$/;"	c
+WeaponParams::WeaponParams	model/WeaponParams.cpp	/^WeaponParams::WeaponParams() { }$/;"	f	class:WeaponParams
+WeaponParams::WeaponParams	model/WeaponParams.cpp	/^WeaponParams::WeaponParams(int magazineSize, double fireRate, double reloadTime, double minSprea/;"	f	class:WeaponParams
+WeaponParams::aimSpeed	model/WeaponParams.hpp	/^    double aimSpeed;$/;"	m	class:WeaponParams	typeref:typename:double
+WeaponParams::bullet	model/WeaponParams.hpp	/^    BulletParams bullet;$/;"	m	class:WeaponParams	typeref:typename:BulletParams
+WeaponParams::explosion	model/WeaponParams.hpp	/^    std::shared_ptr<ExplosionParams> explosion;$/;"	m	class:WeaponParams	typeref:typename:std::shared_ptr<ExplosionParams>
+WeaponParams::fireRate	model/WeaponParams.hpp	/^    double fireRate;$/;"	m	class:WeaponParams	typeref:typename:double
+WeaponParams::magazineSize	model/WeaponParams.hpp	/^    int magazineSize;$/;"	m	class:WeaponParams	typeref:typename:int
+WeaponParams::maxSpread	model/WeaponParams.hpp	/^    double maxSpread;$/;"	m	class:WeaponParams	typeref:typename:double
+WeaponParams::minSpread	model/WeaponParams.hpp	/^    double minSpread;$/;"	m	class:WeaponParams	typeref:typename:double
+WeaponParams::readFrom	model/WeaponParams.cpp	/^WeaponParams WeaponParams::readFrom(InputStream& stream) {$/;"	f	class:WeaponParams	typeref:typename:WeaponParams
+WeaponParams::recoil	model/WeaponParams.hpp	/^    double recoil;$/;"	m	class:WeaponParams	typeref:typename:double
+WeaponParams::reloadTime	model/WeaponParams.hpp	/^    double reloadTime;$/;"	m	class:WeaponParams	typeref:typename:double
+WeaponParams::toString	model/WeaponParams.cpp	/^std::string WeaponParams::toString() const {$/;"	f	class:WeaponParams	typeref:typename:std::string
+WeaponParams::writeTo	model/WeaponParams.cpp	/^void WeaponParams::writeTo(OutputStream& stream) const {$/;"	f	class:WeaponParams	typeref:typename:void
+WeaponType	model/WeaponType.hpp	/^enum WeaponType {$/;"	g
+_DEBUG_HPP_	Debug.hpp	/^#define _DEBUG_HPP_$/;"	d
+_MODEL_BULLET_HPP_	model/Bullet.hpp	/^#define _MODEL_BULLET_HPP_$/;"	d
+_MODEL_BULLET_PARAMS_HPP_	model/BulletParams.hpp	/^#define _MODEL_BULLET_PARAMS_HPP_$/;"	d
+_MODEL_COLORED_VERTEX_HPP_	model/ColoredVertex.hpp	/^#define _MODEL_COLORED_VERTEX_HPP_$/;"	d
+_MODEL_COLOR_FLOAT_HPP_	model/ColorFloat.hpp	/^#define _MODEL_COLOR_FLOAT_HPP_$/;"	d
+_MODEL_CUSTOM_DATA_HPP_	model/CustomData.hpp	/^#define _MODEL_CUSTOM_DATA_HPP_$/;"	d
+_MODEL_EXPLOSION_PARAMS_HPP_	model/ExplosionParams.hpp	/^#define _MODEL_EXPLOSION_PARAMS_HPP_$/;"	d
+_MODEL_GAME_HPP_	model/Game.hpp	/^#define _MODEL_GAME_HPP_$/;"	d
+_MODEL_ITEM_HPP_	model/Item.hpp	/^#define _MODEL_ITEM_HPP_$/;"	d
+_MODEL_JUMP_STATE_HPP_	model/JumpState.hpp	/^#define _MODEL_JUMP_STATE_HPP_$/;"	d
+_MODEL_LEVEL_HPP_	model/Level.hpp	/^#define _MODEL_LEVEL_HPP_$/;"	d
+_MODEL_LOOT_BOX_HPP_	model/LootBox.hpp	/^#define _MODEL_LOOT_BOX_HPP_$/;"	d
+_MODEL_MINE_HPP_	model/Mine.hpp	/^#define _MODEL_MINE_HPP_$/;"	d
+_MODEL_MINE_STATE_HPP_	model/MineState.hpp	/^#define _MODEL_MINE_STATE_HPP_$/;"	d
+_MODEL_PLAYER_HPP_	model/Player.hpp	/^#define _MODEL_PLAYER_HPP_$/;"	d
+_MODEL_PLAYER_MESSAGE_GAME_HPP_	model/PlayerMessageGame.hpp	/^#define _MODEL_PLAYER_MESSAGE_GAME_HPP_$/;"	d
+_MODEL_PLAYER_VIEW_HPP_	model/PlayerView.hpp	/^#define _MODEL_PLAYER_VIEW_HPP_$/;"	d
+_MODEL_PROPERTIES_HPP_	model/Properties.hpp	/^#define _MODEL_PROPERTIES_HPP_$/;"	d
+_MODEL_SERVER_MESSAGE_GAME_HPP_	model/ServerMessageGame.hpp	/^#define _MODEL_SERVER_MESSAGE_GAME_HPP_$/;"	d
+_MODEL_TEXT_ALIGNMENT_HPP_	model/TextAlignment.hpp	/^#define _MODEL_TEXT_ALIGNMENT_HPP_$/;"	d
+_MODEL_TILE_HPP_	model/Tile.hpp	/^#define _MODEL_TILE_HPP_$/;"	d
+_MODEL_UNIT_ACTION_HPP_	model/UnitAction.hpp	/^#define _MODEL_UNIT_ACTION_HPP_$/;"	d
+_MODEL_UNIT_HPP_	model/Unit.hpp	/^#define _MODEL_UNIT_HPP_$/;"	d
+_MODEL_VEC2_DOUBLE_HPP_	model/Vec2Double.hpp	/^#define _MODEL_VEC2_DOUBLE_HPP_$/;"	d
+_MODEL_VEC2_FLOAT_HPP_	model/Vec2Float.hpp	/^#define _MODEL_VEC2_FLOAT_HPP_$/;"	d
+_MODEL_VERSIONED_HPP_	model/Versioned.hpp	/^#define _MODEL_VERSIONED_HPP_$/;"	d
+_MODEL_WEAPON_HPP_	model/Weapon.hpp	/^#define _MODEL_WEAPON_HPP_$/;"	d
+_MODEL_WEAPON_PARAMS_HPP_	model/WeaponParams.hpp	/^#define _MODEL_WEAPON_PARAMS_HPP_$/;"	d
+_MODEL_WEAPON_TYPE_HPP_	model/WeaponType.hpp	/^#define _MODEL_WEAPON_TYPE_HPP_$/;"	d
+_MY_STRATEGY_HPP_	MyStrategy.hpp	/^#define _MY_STRATEGY_HPP_$/;"	d
+_STREAM_HPP_	Stream.hpp	/^#define _STREAM_HPP_$/;"	d
+_TCP_STREAM_HPP_	TcpStream.hpp	/^#define _TCP_STREAM_HPP_$/;"	d
+_WIN32_WINNT	TcpStream.hpp	/^#define _WIN32_WINNT /;"	d
+__anoncb9ca722010a	Stream.cpp	/^  union {$/;"	u	function:isLittleEndianMachine	file:
+a	model/ColorFloat.hpp	/^    float a;$/;"	m	class:ColorFloat	typeref:typename:float
+action	model/PlayerMessageGame.hpp	/^    Versioned action;$/;"	m	class:PlayerMessageGame::ActionMessage	typeref:typename:Versioned
+aicup2019	CMakeLists.txt	/^add_executable(aicup2019 ${HEADERS} ${SRC})$/;"	t
+aicup2019	CMakeLists.txt	/^project(aicup2019)$/;"	p
+aicup2019	build/Makefile	/^aicup2019: cmake_check_build_system$/;"	t
+aicup2019/fast	build/Makefile	/^aicup2019\/fast:$/;"	t
+aim	model/UnitAction.hpp	/^    Vec2Double aim;$/;"	m	class:UnitAction	typeref:typename:Vec2Double
+aimSpeed	model/WeaponParams.hpp	/^    double aimSpeed;$/;"	m	class:WeaponParams	typeref:typename:double
+alignment	model/CustomData.hpp	/^    TextAlignment alignment;$/;"	m	class:CustomData::PlacedText	typeref:typename:TextAlignment
+all	build/Makefile	/^all: cmake_check_build_system$/;"	t
+b	model/ColorFloat.hpp	/^    float b;$/;"	m	class:ColorFloat	typeref:typename:float
+buffer	TcpStream.cpp	/^  char buffer[BUFFER_CAPACITY];$/;"	m	class:TcpInputStream	typeref:typename:char[]	file:
+buffer	TcpStream.cpp	/^  char buffer[BUFFER_CAPACITY];$/;"	m	class:TcpOutputStream	typeref:typename:char[]	file:
+bufferPos	TcpStream.cpp	/^  size_t bufferPos;$/;"	m	class:TcpInputStream	typeref:typename:size_t	file:
+bufferPos	TcpStream.cpp	/^  size_t bufferPos;$/;"	m	class:TcpOutputStream	typeref:typename:size_t	file:
+bufferSize	TcpStream.cpp	/^  size_t bufferSize;$/;"	m	class:TcpInputStream	typeref:typename:size_t	file:
+bufferSize	TcpStream.cpp	/^  size_t bufferSize;$/;"	m	class:TcpOutputStream	typeref:typename:size_t	file:
+bullet	model/WeaponParams.hpp	/^    BulletParams bullet;$/;"	m	class:WeaponParams	typeref:typename:BulletParams
+bullets	model/Game.hpp	/^    std::vector<Bullet> bullets;$/;"	m	class:Game	typeref:typename:std::vector<Bullet>
+bytes	Stream.cpp	/^    char bytes[2];$/;"	m	union:isLittleEndianMachine::__anoncb9ca722010a	typeref:typename:char[2]	file:
+canCancel	model/JumpState.hpp	/^    bool canCancel;$/;"	m	class:JumpState	typeref:typename:bool
+canJump	model/JumpState.hpp	/^    bool canJump;$/;"	m	class:JumpState	typeref:typename:bool
+clean	build/Makefile	/^clean:$/;"	t
+clean/fast	build/Makefile	/^clean\/fast: clean$/;"	t
+cmake_check_build_system	build/Makefile	/^cmake_check_build_system:$/;"	t
+cmake_force	build/Makefile	/^cmake_force:$/;"	t
+color	model/ColoredVertex.hpp	/^    ColorFloat color;$/;"	m	class:ColoredVertex	typeref:typename:ColorFloat
+color	model/CustomData.hpp	/^    ColorFloat color;$/;"	m	class:CustomData::Line	typeref:typename:ColorFloat
+color	model/CustomData.hpp	/^    ColorFloat color;$/;"	m	class:CustomData::PlacedText	typeref:typename:ColorFloat
+color	model/CustomData.hpp	/^    ColorFloat color;$/;"	m	class:CustomData::Rect	typeref:typename:ColorFloat
+const	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^# define const$/;"	d	file:
+currentTick	model/Game.hpp	/^    int currentTick;$/;"	m	class:Game	typeref:typename:int
+damage	model/Bullet.hpp	/^    int damage;$/;"	m	class:Bullet	typeref:typename:int
+damage	model/BulletParams.hpp	/^    int damage;$/;"	m	class:BulletParams	typeref:typename:int
+damage	model/ExplosionParams.hpp	/^    int damage;$/;"	m	class:ExplosionParams	typeref:typename:int
+data	model/PlayerMessageGame.hpp	/^    std::shared_ptr<CustomData> data;$/;"	m	class:PlayerMessageGame::CustomDataMessage	typeref:typename:std::shared_ptr<CustomData>
+default_target	build/Makefile	/^default_target: all$/;"	t
+depend	build/Makefile	/^depend:$/;"	t
+distanceSqr	MyStrategy.cpp	/^double distanceSqr(Vec2Double a, Vec2Double b) {$/;"	f	typeref:typename:double
+draw	Debug.cpp	/^void Debug::draw(const CustomData &customData) {$/;"	f	class:Debug	typeref:typename:void
+edit_cache	build/Makefile	/^edit_cache:$/;"	t
+edit_cache/fast	build/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+explosion	model/WeaponParams.hpp	/^    std::shared_ptr<ExplosionParams> explosion;$/;"	m	class:WeaponParams	typeref:typename:std::shared_ptr<ExplosionParams>
+explosionParams	model/Bullet.hpp	/^    std::shared_ptr<ExplosionParams> explosionParams;$/;"	m	class:Bullet	typeref:typename:std::shared_ptr<ExplosionParams>
+explosionParams	model/Mine.hpp	/^    ExplosionParams explosionParams;$/;"	m	class:Mine	typeref:typename:ExplosionParams
+fireRate	model/WeaponParams.hpp	/^    double fireRate;$/;"	m	class:WeaponParams	typeref:typename:double
+fireTimer	model/Weapon.hpp	/^    std::shared_ptr<double> fireTimer;$/;"	m	class:Weapon	typeref:typename:std::shared_ptr<double>
+flush	TcpStream.cpp	/^  void flush() {$/;"	f	class:TcpOutputStream	typeref:typename:void	file:
+g	model/ColorFloat.hpp	/^    float g;$/;"	m	class:ColorFloat	typeref:typename:float
+game	model/PlayerView.hpp	/^    Game game;$/;"	m	class:PlayerView	typeref:typename:Game
+getAction	MyStrategy.cpp	/^UnitAction MyStrategy::getAction(const Unit &unit, const Game &game,$/;"	f	class:MyStrategy	typeref:typename:UnitAction
+getInputStream	TcpStream.cpp	/^getInputStream(std::shared_ptr<TcpStream> tcpStream) {$/;"	f	typeref:typename:std::shared_ptr<InputStream>
+getOutputStream	TcpStream.cpp	/^getOutputStream(std::shared_ptr<TcpStream> tcpStream) {$/;"	f	typeref:typename:std::shared_ptr<OutputStream>
+hash	model/Player.hpp	/^    struct hash<Player> {$/;"	s	namespace:std
+health	model/Item.hpp	/^    int health;$/;"	m	class:Item::HealthPack	typeref:typename:int
+health	model/Unit.hpp	/^    int health;$/;"	m	class:Unit	typeref:typename:int
+healthPackHealth	model/Properties.hpp	/^    int healthPackHealth;$/;"	m	class:Properties	typeref:typename:int
+help	build/Makefile	/^help:$/;"	t
+id	model/Player.hpp	/^    int id;$/;"	m	class:Player	typeref:typename:int
+id	model/Unit.hpp	/^    int id;$/;"	m	class:Unit	typeref:typename:int
+info_arch	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_arch	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_cray	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_cray	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_language_dialect_default	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_dialect_default =$/;"	v	typeref:typename:const char *
+info_language_dialect_default	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_dialect_default = "INFO" ":" "dialect_default["$/;"	v	typeref:typename:const char *
+info_platform	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_platform	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate_version	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_simulate_version	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+inner	model/Versioned.hpp	/^    std::unordered_map<int, UnitAction> inner;$/;"	m	class:Versioned	typeref:typename:std::unordered_map<int,UnitAction>
+inputStream	main.cpp	/^  std::shared_ptr<InputStream> inputStream;$/;"	m	class:Runner	typeref:typename:std::shared_ptr<InputStream>	file:
+isLittleEndianMachine	Stream.cpp	/^bool isLittleEndianMachine() {$/;"	f	typeref:typename:bool
+isLittleEndianMachine::__anoncb9ca722010a::bytes	Stream.cpp	/^    char bytes[2];$/;"	m	union:isLittleEndianMachine::__anoncb9ca722010a	typeref:typename:char[2]	file:
+isLittleEndianMachine::__anoncb9ca722010a::value	Stream.cpp	/^    unsigned short value;$/;"	m	union:isLittleEndianMachine::__anoncb9ca722010a	typeref:typename:unsigned short	file:
+item	model/LootBox.hpp	/^    std::shared_ptr<Item> item;$/;"	m	class:LootBox	typeref:typename:std::shared_ptr<Item>
+jump	model/UnitAction.hpp	/^    bool jump;$/;"	m	class:UnitAction	typeref:typename:bool
+jumpDown	model/UnitAction.hpp	/^    bool jumpDown;$/;"	m	class:UnitAction	typeref:typename:bool
+jumpPadJumpSpeed	model/Properties.hpp	/^    double jumpPadJumpSpeed;$/;"	m	class:Properties	typeref:typename:double
+jumpPadJumpTime	model/Properties.hpp	/^    double jumpPadJumpTime;$/;"	m	class:Properties	typeref:typename:double
+jumpState	model/Unit.hpp	/^    JumpState jumpState;$/;"	m	class:Unit	typeref:typename:JumpState
+killScore	model/Properties.hpp	/^    int killScore;$/;"	m	class:Properties	typeref:typename:int
+lastAngle	model/Weapon.hpp	/^    std::shared_ptr<double> lastAngle;$/;"	m	class:Weapon	typeref:typename:std::shared_ptr<double>
+lastFireTick	model/Weapon.hpp	/^    std::shared_ptr<int> lastFireTick;$/;"	m	class:Weapon	typeref:typename:std::shared_ptr<int>
+level	model/Game.hpp	/^    Level level;$/;"	m	class:Game	typeref:typename:Level
+lootBoxSize	model/Properties.hpp	/^    Vec2Double lootBoxSize;$/;"	m	class:Properties	typeref:typename:Vec2Double
+lootBoxes	model/Game.hpp	/^    std::vector<LootBox> lootBoxes;$/;"	m	class:Game	typeref:typename:std::vector<LootBox>
+magazine	model/Weapon.hpp	/^    int magazine;$/;"	m	class:Weapon	typeref:typename:int
+magazineSize	model/WeaponParams.hpp	/^    int magazineSize;$/;"	m	class:WeaponParams	typeref:typename:int
+main	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
+main	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f	typeref:typename:void
+main	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+main	main.cpp	/^int main(int argc, char *argv[]) {$/;"	f	typeref:typename:int
+main.cpp.i	build/Makefile	/^main.cpp.i:$/;"	t
+main.cpp.o	build/Makefile	/^main.cpp.o:$/;"	t
+main.cpp.s	build/Makefile	/^main.cpp.s:$/;"	t
+main.i	build/Makefile	/^main.i: main.cpp.i$/;"	t
+main.o	build/Makefile	/^main.o: main.cpp.o$/;"	t
+main.s	build/Makefile	/^main.s: main.cpp.s$/;"	t
+maxSpread	model/WeaponParams.hpp	/^    double maxSpread;$/;"	m	class:WeaponParams	typeref:typename:double
+maxTickCount	model/Properties.hpp	/^    int maxTickCount;$/;"	m	class:Properties	typeref:typename:int
+maxTime	model/JumpState.hpp	/^    double maxTime;$/;"	m	class:JumpState	typeref:typename:double
+minSpread	model/WeaponParams.hpp	/^    double minSpread;$/;"	m	class:WeaponParams	typeref:typename:double
+mineExplosionParams	model/Properties.hpp	/^    ExplosionParams mineExplosionParams;$/;"	m	class:Properties	typeref:typename:ExplosionParams
+minePrepareTime	model/Properties.hpp	/^    double minePrepareTime;$/;"	m	class:Properties	typeref:typename:double
+mineSize	model/Properties.hpp	/^    Vec2Double mineSize;$/;"	m	class:Properties	typeref:typename:Vec2Double
+mineTriggerRadius	model/Properties.hpp	/^    double mineTriggerRadius;$/;"	m	class:Properties	typeref:typename:double
+mineTriggerTime	model/Properties.hpp	/^    double mineTriggerTime;$/;"	m	class:Properties	typeref:typename:double
+mines	model/Game.hpp	/^    std::vector<Mine> mines;$/;"	m	class:Game	typeref:typename:std::vector<Mine>
+mines	model/Unit.hpp	/^    int mines;$/;"	m	class:Unit	typeref:typename:int
+model/Bullet.cpp.i	build/Makefile	/^model\/Bullet.cpp.i:$/;"	t
+model/Bullet.cpp.o	build/Makefile	/^model\/Bullet.cpp.o:$/;"	t
+model/Bullet.cpp.s	build/Makefile	/^model\/Bullet.cpp.s:$/;"	t
+model/Bullet.i	build/Makefile	/^model\/Bullet.i: model\/Bullet.cpp.i$/;"	t
+model/Bullet.o	build/Makefile	/^model\/Bullet.o: model\/Bullet.cpp.o$/;"	t
+model/Bullet.s	build/Makefile	/^model\/Bullet.s: model\/Bullet.cpp.s$/;"	t
+model/BulletParams.cpp.i	build/Makefile	/^model\/BulletParams.cpp.i:$/;"	t
+model/BulletParams.cpp.o	build/Makefile	/^model\/BulletParams.cpp.o:$/;"	t
+model/BulletParams.cpp.s	build/Makefile	/^model\/BulletParams.cpp.s:$/;"	t
+model/BulletParams.i	build/Makefile	/^model\/BulletParams.i: model\/BulletParams.cpp.i$/;"	t
+model/BulletParams.o	build/Makefile	/^model\/BulletParams.o: model\/BulletParams.cpp.o$/;"	t
+model/BulletParams.s	build/Makefile	/^model\/BulletParams.s: model\/BulletParams.cpp.s$/;"	t
+model/ColorFloat.cpp.i	build/Makefile	/^model\/ColorFloat.cpp.i:$/;"	t
+model/ColorFloat.cpp.o	build/Makefile	/^model\/ColorFloat.cpp.o:$/;"	t
+model/ColorFloat.cpp.s	build/Makefile	/^model\/ColorFloat.cpp.s:$/;"	t
+model/ColorFloat.i	build/Makefile	/^model\/ColorFloat.i: model\/ColorFloat.cpp.i$/;"	t
+model/ColorFloat.o	build/Makefile	/^model\/ColorFloat.o: model\/ColorFloat.cpp.o$/;"	t
+model/ColorFloat.s	build/Makefile	/^model\/ColorFloat.s: model\/ColorFloat.cpp.s$/;"	t
+model/ColoredVertex.cpp.i	build/Makefile	/^model\/ColoredVertex.cpp.i:$/;"	t
+model/ColoredVertex.cpp.o	build/Makefile	/^model\/ColoredVertex.cpp.o:$/;"	t
+model/ColoredVertex.cpp.s	build/Makefile	/^model\/ColoredVertex.cpp.s:$/;"	t
+model/ColoredVertex.i	build/Makefile	/^model\/ColoredVertex.i: model\/ColoredVertex.cpp.i$/;"	t
+model/ColoredVertex.o	build/Makefile	/^model\/ColoredVertex.o: model\/ColoredVertex.cpp.o$/;"	t
+model/ColoredVertex.s	build/Makefile	/^model\/ColoredVertex.s: model\/ColoredVertex.cpp.s$/;"	t
+model/CustomData.cpp.i	build/Makefile	/^model\/CustomData.cpp.i:$/;"	t
+model/CustomData.cpp.o	build/Makefile	/^model\/CustomData.cpp.o:$/;"	t
+model/CustomData.cpp.s	build/Makefile	/^model\/CustomData.cpp.s:$/;"	t
+model/CustomData.i	build/Makefile	/^model\/CustomData.i: model\/CustomData.cpp.i$/;"	t
+model/CustomData.o	build/Makefile	/^model\/CustomData.o: model\/CustomData.cpp.o$/;"	t
+model/CustomData.s	build/Makefile	/^model\/CustomData.s: model\/CustomData.cpp.s$/;"	t
+model/ExplosionParams.cpp.i	build/Makefile	/^model\/ExplosionParams.cpp.i:$/;"	t
+model/ExplosionParams.cpp.o	build/Makefile	/^model\/ExplosionParams.cpp.o:$/;"	t
+model/ExplosionParams.cpp.s	build/Makefile	/^model\/ExplosionParams.cpp.s:$/;"	t
+model/ExplosionParams.i	build/Makefile	/^model\/ExplosionParams.i: model\/ExplosionParams.cpp.i$/;"	t
+model/ExplosionParams.o	build/Makefile	/^model\/ExplosionParams.o: model\/ExplosionParams.cpp.o$/;"	t
+model/ExplosionParams.s	build/Makefile	/^model\/ExplosionParams.s: model\/ExplosionParams.cpp.s$/;"	t
+model/Game.cpp.i	build/Makefile	/^model\/Game.cpp.i:$/;"	t
+model/Game.cpp.o	build/Makefile	/^model\/Game.cpp.o:$/;"	t
+model/Game.cpp.s	build/Makefile	/^model\/Game.cpp.s:$/;"	t
+model/Game.i	build/Makefile	/^model\/Game.i: model\/Game.cpp.i$/;"	t
+model/Game.o	build/Makefile	/^model\/Game.o: model\/Game.cpp.o$/;"	t
+model/Game.s	build/Makefile	/^model\/Game.s: model\/Game.cpp.s$/;"	t
+model/Item.cpp.i	build/Makefile	/^model\/Item.cpp.i:$/;"	t
+model/Item.cpp.o	build/Makefile	/^model\/Item.cpp.o:$/;"	t
+model/Item.cpp.s	build/Makefile	/^model\/Item.cpp.s:$/;"	t
+model/Item.i	build/Makefile	/^model\/Item.i: model\/Item.cpp.i$/;"	t
+model/Item.o	build/Makefile	/^model\/Item.o: model\/Item.cpp.o$/;"	t
+model/Item.s	build/Makefile	/^model\/Item.s: model\/Item.cpp.s$/;"	t
+model/JumpState.cpp.i	build/Makefile	/^model\/JumpState.cpp.i:$/;"	t
+model/JumpState.cpp.o	build/Makefile	/^model\/JumpState.cpp.o:$/;"	t
+model/JumpState.cpp.s	build/Makefile	/^model\/JumpState.cpp.s:$/;"	t
+model/JumpState.i	build/Makefile	/^model\/JumpState.i: model\/JumpState.cpp.i$/;"	t
+model/JumpState.o	build/Makefile	/^model\/JumpState.o: model\/JumpState.cpp.o$/;"	t
+model/JumpState.s	build/Makefile	/^model\/JumpState.s: model\/JumpState.cpp.s$/;"	t
+model/Level.cpp.i	build/Makefile	/^model\/Level.cpp.i:$/;"	t
+model/Level.cpp.o	build/Makefile	/^model\/Level.cpp.o:$/;"	t
+model/Level.cpp.s	build/Makefile	/^model\/Level.cpp.s:$/;"	t
+model/Level.i	build/Makefile	/^model\/Level.i: model\/Level.cpp.i$/;"	t
+model/Level.o	build/Makefile	/^model\/Level.o: model\/Level.cpp.o$/;"	t
+model/Level.s	build/Makefile	/^model\/Level.s: model\/Level.cpp.s$/;"	t
+model/LootBox.cpp.i	build/Makefile	/^model\/LootBox.cpp.i:$/;"	t
+model/LootBox.cpp.o	build/Makefile	/^model\/LootBox.cpp.o:$/;"	t
+model/LootBox.cpp.s	build/Makefile	/^model\/LootBox.cpp.s:$/;"	t
+model/LootBox.i	build/Makefile	/^model\/LootBox.i: model\/LootBox.cpp.i$/;"	t
+model/LootBox.o	build/Makefile	/^model\/LootBox.o: model\/LootBox.cpp.o$/;"	t
+model/LootBox.s	build/Makefile	/^model\/LootBox.s: model\/LootBox.cpp.s$/;"	t
+model/Mine.cpp.i	build/Makefile	/^model\/Mine.cpp.i:$/;"	t
+model/Mine.cpp.o	build/Makefile	/^model\/Mine.cpp.o:$/;"	t
+model/Mine.cpp.s	build/Makefile	/^model\/Mine.cpp.s:$/;"	t
+model/Mine.i	build/Makefile	/^model\/Mine.i: model\/Mine.cpp.i$/;"	t
+model/Mine.o	build/Makefile	/^model\/Mine.o: model\/Mine.cpp.o$/;"	t
+model/Mine.s	build/Makefile	/^model\/Mine.s: model\/Mine.cpp.s$/;"	t
+model/Player.cpp.i	build/Makefile	/^model\/Player.cpp.i:$/;"	t
+model/Player.cpp.o	build/Makefile	/^model\/Player.cpp.o:$/;"	t
+model/Player.cpp.s	build/Makefile	/^model\/Player.cpp.s:$/;"	t
+model/Player.i	build/Makefile	/^model\/Player.i: model\/Player.cpp.i$/;"	t
+model/Player.o	build/Makefile	/^model\/Player.o: model\/Player.cpp.o$/;"	t
+model/Player.s	build/Makefile	/^model\/Player.s: model\/Player.cpp.s$/;"	t
+model/PlayerMessageGame.cpp.i	build/Makefile	/^model\/PlayerMessageGame.cpp.i:$/;"	t
+model/PlayerMessageGame.cpp.o	build/Makefile	/^model\/PlayerMessageGame.cpp.o:$/;"	t
+model/PlayerMessageGame.cpp.s	build/Makefile	/^model\/PlayerMessageGame.cpp.s:$/;"	t
+model/PlayerMessageGame.i	build/Makefile	/^model\/PlayerMessageGame.i: model\/PlayerMessageGame.cpp.i$/;"	t
+model/PlayerMessageGame.o	build/Makefile	/^model\/PlayerMessageGame.o: model\/PlayerMessageGame.cpp.o$/;"	t
+model/PlayerMessageGame.s	build/Makefile	/^model\/PlayerMessageGame.s: model\/PlayerMessageGame.cpp.s$/;"	t
+model/PlayerView.cpp.i	build/Makefile	/^model\/PlayerView.cpp.i:$/;"	t
+model/PlayerView.cpp.o	build/Makefile	/^model\/PlayerView.cpp.o:$/;"	t
+model/PlayerView.cpp.s	build/Makefile	/^model\/PlayerView.cpp.s:$/;"	t
+model/PlayerView.i	build/Makefile	/^model\/PlayerView.i: model\/PlayerView.cpp.i$/;"	t
+model/PlayerView.o	build/Makefile	/^model\/PlayerView.o: model\/PlayerView.cpp.o$/;"	t
+model/PlayerView.s	build/Makefile	/^model\/PlayerView.s: model\/PlayerView.cpp.s$/;"	t
+model/Properties.cpp.i	build/Makefile	/^model\/Properties.cpp.i:$/;"	t
+model/Properties.cpp.o	build/Makefile	/^model\/Properties.cpp.o:$/;"	t
+model/Properties.cpp.s	build/Makefile	/^model\/Properties.cpp.s:$/;"	t
+model/Properties.i	build/Makefile	/^model\/Properties.i: model\/Properties.cpp.i$/;"	t
+model/Properties.o	build/Makefile	/^model\/Properties.o: model\/Properties.cpp.o$/;"	t
+model/Properties.s	build/Makefile	/^model\/Properties.s: model\/Properties.cpp.s$/;"	t
+model/ServerMessageGame.cpp.i	build/Makefile	/^model\/ServerMessageGame.cpp.i:$/;"	t
+model/ServerMessageGame.cpp.o	build/Makefile	/^model\/ServerMessageGame.cpp.o:$/;"	t
+model/ServerMessageGame.cpp.s	build/Makefile	/^model\/ServerMessageGame.cpp.s:$/;"	t
+model/ServerMessageGame.i	build/Makefile	/^model\/ServerMessageGame.i: model\/ServerMessageGame.cpp.i$/;"	t
+model/ServerMessageGame.o	build/Makefile	/^model\/ServerMessageGame.o: model\/ServerMessageGame.cpp.o$/;"	t
+model/ServerMessageGame.s	build/Makefile	/^model\/ServerMessageGame.s: model\/ServerMessageGame.cpp.s$/;"	t
+model/Unit.cpp.i	build/Makefile	/^model\/Unit.cpp.i:$/;"	t
+model/Unit.cpp.o	build/Makefile	/^model\/Unit.cpp.o:$/;"	t
+model/Unit.cpp.s	build/Makefile	/^model\/Unit.cpp.s:$/;"	t
+model/Unit.i	build/Makefile	/^model\/Unit.i: model\/Unit.cpp.i$/;"	t
+model/Unit.o	build/Makefile	/^model\/Unit.o: model\/Unit.cpp.o$/;"	t
+model/Unit.s	build/Makefile	/^model\/Unit.s: model\/Unit.cpp.s$/;"	t
+model/UnitAction.cpp.i	build/Makefile	/^model\/UnitAction.cpp.i:$/;"	t
+model/UnitAction.cpp.o	build/Makefile	/^model\/UnitAction.cpp.o:$/;"	t
+model/UnitAction.cpp.s	build/Makefile	/^model\/UnitAction.cpp.s:$/;"	t
+model/UnitAction.i	build/Makefile	/^model\/UnitAction.i: model\/UnitAction.cpp.i$/;"	t
+model/UnitAction.o	build/Makefile	/^model\/UnitAction.o: model\/UnitAction.cpp.o$/;"	t
+model/UnitAction.s	build/Makefile	/^model\/UnitAction.s: model\/UnitAction.cpp.s$/;"	t
+model/Vec2Double.cpp.i	build/Makefile	/^model\/Vec2Double.cpp.i:$/;"	t
+model/Vec2Double.cpp.o	build/Makefile	/^model\/Vec2Double.cpp.o:$/;"	t
+model/Vec2Double.cpp.s	build/Makefile	/^model\/Vec2Double.cpp.s:$/;"	t
+model/Vec2Double.i	build/Makefile	/^model\/Vec2Double.i: model\/Vec2Double.cpp.i$/;"	t
+model/Vec2Double.o	build/Makefile	/^model\/Vec2Double.o: model\/Vec2Double.cpp.o$/;"	t
+model/Vec2Double.s	build/Makefile	/^model\/Vec2Double.s: model\/Vec2Double.cpp.s$/;"	t
+model/Vec2Float.cpp.i	build/Makefile	/^model\/Vec2Float.cpp.i:$/;"	t
+model/Vec2Float.cpp.o	build/Makefile	/^model\/Vec2Float.cpp.o:$/;"	t
+model/Vec2Float.cpp.s	build/Makefile	/^model\/Vec2Float.cpp.s:$/;"	t
+model/Vec2Float.i	build/Makefile	/^model\/Vec2Float.i: model\/Vec2Float.cpp.i$/;"	t
+model/Vec2Float.o	build/Makefile	/^model\/Vec2Float.o: model\/Vec2Float.cpp.o$/;"	t
+model/Vec2Float.s	build/Makefile	/^model\/Vec2Float.s: model\/Vec2Float.cpp.s$/;"	t
+model/Versioned.cpp.i	build/Makefile	/^model\/Versioned.cpp.i:$/;"	t
+model/Versioned.cpp.o	build/Makefile	/^model\/Versioned.cpp.o:$/;"	t
+model/Versioned.cpp.s	build/Makefile	/^model\/Versioned.cpp.s:$/;"	t
+model/Versioned.i	build/Makefile	/^model\/Versioned.i: model\/Versioned.cpp.i$/;"	t
+model/Versioned.o	build/Makefile	/^model\/Versioned.o: model\/Versioned.cpp.o$/;"	t
+model/Versioned.s	build/Makefile	/^model\/Versioned.s: model\/Versioned.cpp.s$/;"	t
+model/Weapon.cpp.i	build/Makefile	/^model\/Weapon.cpp.i:$/;"	t
+model/Weapon.cpp.o	build/Makefile	/^model\/Weapon.cpp.o:$/;"	t
+model/Weapon.cpp.s	build/Makefile	/^model\/Weapon.cpp.s:$/;"	t
+model/Weapon.i	build/Makefile	/^model\/Weapon.i: model\/Weapon.cpp.i$/;"	t
+model/Weapon.o	build/Makefile	/^model\/Weapon.o: model\/Weapon.cpp.o$/;"	t
+model/Weapon.s	build/Makefile	/^model\/Weapon.s: model\/Weapon.cpp.s$/;"	t
+model/WeaponParams.cpp.i	build/Makefile	/^model\/WeaponParams.cpp.i:$/;"	t
+model/WeaponParams.cpp.o	build/Makefile	/^model\/WeaponParams.cpp.o:$/;"	t
+model/WeaponParams.cpp.s	build/Makefile	/^model\/WeaponParams.cpp.s:$/;"	t
+model/WeaponParams.i	build/Makefile	/^model\/WeaponParams.i: model\/WeaponParams.cpp.i$/;"	t
+model/WeaponParams.o	build/Makefile	/^model\/WeaponParams.o: model\/WeaponParams.cpp.o$/;"	t
+model/WeaponParams.s	build/Makefile	/^model\/WeaponParams.s: model\/WeaponParams.cpp.s$/;"	t
+myId	model/PlayerView.hpp	/^    int myId;$/;"	m	class:PlayerView	typeref:typename:int
+onGround	model/Unit.hpp	/^    bool onGround;$/;"	m	class:Unit	typeref:typename:bool
+onLadder	model/Unit.hpp	/^    bool onLadder;$/;"	m	class:Unit	typeref:typename:bool
+operator ()	model/Player.cpp	/^size_t std::hash<Player>::operator ()(const Player& value) const {$/;"	f	class:std::hash	typeref:typename:size_t
+operator ==	model/Player.cpp	/^bool Player::operator ==(const Player& other) const {$/;"	f	class:Player	typeref:typename:bool
+outputStream	Debug.hpp	/^  std::shared_ptr<OutputStream> outputStream;$/;"	m	class:Debug	typeref:typename:std::shared_ptr<OutputStream>
+outputStream	main.cpp	/^  std::shared_ptr<OutputStream> outputStream;$/;"	m	class:Runner	typeref:typename:std::shared_ptr<OutputStream>	file:
+p1	model/CustomData.hpp	/^    Vec2Float p1;$/;"	m	class:CustomData::Line	typeref:typename:Vec2Float
+p2	model/CustomData.hpp	/^    Vec2Float p2;$/;"	m	class:CustomData::Line	typeref:typename:Vec2Float
+params	model/Weapon.hpp	/^    WeaponParams params;$/;"	m	class:Weapon	typeref:typename:WeaponParams
+plantMine	model/UnitAction.hpp	/^    bool plantMine;$/;"	m	class:UnitAction	typeref:typename:bool
+playerId	model/Bullet.hpp	/^    int playerId;$/;"	m	class:Bullet	typeref:typename:int
+playerId	model/Mine.hpp	/^    int playerId;$/;"	m	class:Mine	typeref:typename:int
+playerId	model/Unit.hpp	/^    int playerId;$/;"	m	class:Unit	typeref:typename:int
+playerView	model/ServerMessageGame.hpp	/^    std::shared_ptr<PlayerView> playerView;$/;"	m	class:ServerMessageGame	typeref:typename:std::shared_ptr<PlayerView>
+players	model/Game.hpp	/^    std::vector<Player> players;$/;"	m	class:Game	typeref:typename:std::vector<Player>
+pos	model/CustomData.hpp	/^    Vec2Float pos;$/;"	m	class:CustomData::PlacedText	typeref:typename:Vec2Float
+pos	model/CustomData.hpp	/^    Vec2Float pos;$/;"	m	class:CustomData::Rect	typeref:typename:Vec2Float
+position	model/Bullet.hpp	/^    Vec2Double position;$/;"	m	class:Bullet	typeref:typename:Vec2Double
+position	model/ColoredVertex.hpp	/^    Vec2Float position;$/;"	m	class:ColoredVertex	typeref:typename:Vec2Float
+position	model/LootBox.hpp	/^    Vec2Double position;$/;"	m	class:LootBox	typeref:typename:Vec2Double
+position	model/Mine.hpp	/^    Vec2Double position;$/;"	m	class:Mine	typeref:typename:Vec2Double
+position	model/Unit.hpp	/^    Vec2Double position;$/;"	m	class:Unit	typeref:typename:Vec2Double
+preinstall	build/Makefile	/^preinstall: all$/;"	t
+preinstall/fast	build/Makefile	/^preinstall\/fast:$/;"	t
+properties	model/Game.hpp	/^    Properties properties;$/;"	m	class:Game	typeref:typename:Properties
+qnxnto	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+qnxnto	build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+r	model/ColorFloat.hpp	/^    float r;$/;"	m	class:ColorFloat	typeref:typename:float
+radius	model/ExplosionParams.hpp	/^    double radius;$/;"	m	class:ExplosionParams	typeref:typename:double
+readBool	Stream.cpp	/^bool InputStream::readBool() {$/;"	f	class:InputStream	typeref:typename:bool
+readBytes	TcpStream.cpp	/^  void readBytes(char *buffer, size_t byteCount) {$/;"	f	class:TcpInputStream	typeref:typename:void	file:
+readDouble	Stream.cpp	/^double InputStream::readDouble() {$/;"	f	class:InputStream	typeref:typename:double
+readFloat	Stream.cpp	/^float InputStream::readFloat() {$/;"	f	class:InputStream	typeref:typename:float
+readFrom	model/Bullet.cpp	/^Bullet Bullet::readFrom(InputStream& stream) {$/;"	f	class:Bullet	typeref:typename:Bullet
+readFrom	model/BulletParams.cpp	/^BulletParams BulletParams::readFrom(InputStream& stream) {$/;"	f	class:BulletParams	typeref:typename:BulletParams
+readFrom	model/ColorFloat.cpp	/^ColorFloat ColorFloat::readFrom(InputStream& stream) {$/;"	f	class:ColorFloat	typeref:typename:ColorFloat
+readFrom	model/ColoredVertex.cpp	/^ColoredVertex ColoredVertex::readFrom(InputStream& stream) {$/;"	f	class:ColoredVertex	typeref:typename:ColoredVertex
+readFrom	model/CustomData.cpp	/^CustomData::Line CustomData::Line::readFrom(InputStream& stream) {$/;"	f	class:CustomData::Line	typeref:typename:CustomData::Line
+readFrom	model/CustomData.cpp	/^CustomData::Log CustomData::Log::readFrom(InputStream& stream) {$/;"	f	class:CustomData::Log	typeref:typename:CustomData::Log
+readFrom	model/CustomData.cpp	/^CustomData::PlacedText CustomData::PlacedText::readFrom(InputStream& stream) {$/;"	f	class:CustomData::PlacedText	typeref:typename:CustomData::PlacedText
+readFrom	model/CustomData.cpp	/^CustomData::Polygon CustomData::Polygon::readFrom(InputStream& stream) {$/;"	f	class:CustomData::Polygon	typeref:typename:CustomData::Polygon
+readFrom	model/CustomData.cpp	/^CustomData::Rect CustomData::Rect::readFrom(InputStream& stream) {$/;"	f	class:CustomData::Rect	typeref:typename:CustomData::Rect
+readFrom	model/CustomData.cpp	/^std::shared_ptr<CustomData> CustomData::readFrom(InputStream& stream) {$/;"	f	class:CustomData	typeref:typename:std::shared_ptr<CustomData>
+readFrom	model/ExplosionParams.cpp	/^ExplosionParams ExplosionParams::readFrom(InputStream& stream) {$/;"	f	class:ExplosionParams	typeref:typename:ExplosionParams
+readFrom	model/Game.cpp	/^Game Game::readFrom(InputStream& stream) {$/;"	f	class:Game	typeref:typename:Game
+readFrom	model/Item.cpp	/^Item::HealthPack Item::HealthPack::readFrom(InputStream& stream) {$/;"	f	class:Item::HealthPack	typeref:typename:Item::HealthPack
+readFrom	model/Item.cpp	/^Item::Mine Item::Mine::readFrom(InputStream& stream) {$/;"	f	class:Item::Mine	typeref:typename:Item::Mine
+readFrom	model/Item.cpp	/^Item::Weapon Item::Weapon::readFrom(InputStream& stream) {$/;"	f	class:Item::Weapon	typeref:typename:Item::Weapon
+readFrom	model/Item.cpp	/^std::shared_ptr<Item> Item::readFrom(InputStream& stream) {$/;"	f	class:Item	typeref:typename:std::shared_ptr<Item>
+readFrom	model/JumpState.cpp	/^JumpState JumpState::readFrom(InputStream& stream) {$/;"	f	class:JumpState	typeref:typename:JumpState
+readFrom	model/Level.cpp	/^Level Level::readFrom(InputStream& stream) {$/;"	f	class:Level	typeref:typename:Level
+readFrom	model/LootBox.cpp	/^LootBox LootBox::readFrom(InputStream& stream) {$/;"	f	class:LootBox	typeref:typename:LootBox
+readFrom	model/Mine.cpp	/^Mine Mine::readFrom(InputStream& stream) {$/;"	f	class:Mine	typeref:typename:Mine
+readFrom	model/Player.cpp	/^Player Player::readFrom(InputStream& stream) {$/;"	f	class:Player	typeref:typename:Player
+readFrom	model/PlayerMessageGame.cpp	/^PlayerMessageGame::ActionMessage PlayerMessageGame::ActionMessage::readFrom(InputStream& stream)/;"	f	class:PlayerMessageGame::ActionMessage	typeref:typename:PlayerMessageGame::ActionMessage
+readFrom	model/PlayerMessageGame.cpp	/^PlayerMessageGame::CustomDataMessage PlayerMessageGame::CustomDataMessage::readFrom(InputStream&/;"	f	class:PlayerMessageGame::CustomDataMessage	typeref:typename:PlayerMessageGame::CustomDataMessage
+readFrom	model/PlayerMessageGame.cpp	/^std::shared_ptr<PlayerMessageGame> PlayerMessageGame::readFrom(InputStream& stream) {$/;"	f	class:PlayerMessageGame	typeref:typename:std::shared_ptr<PlayerMessageGame>
+readFrom	model/PlayerView.cpp	/^PlayerView PlayerView::readFrom(InputStream& stream) {$/;"	f	class:PlayerView	typeref:typename:PlayerView
+readFrom	model/Properties.cpp	/^Properties Properties::readFrom(InputStream& stream) {$/;"	f	class:Properties	typeref:typename:Properties
+readFrom	model/ServerMessageGame.cpp	/^ServerMessageGame ServerMessageGame::readFrom(InputStream& stream) {$/;"	f	class:ServerMessageGame	typeref:typename:ServerMessageGame
+readFrom	model/Unit.cpp	/^Unit Unit::readFrom(InputStream& stream) {$/;"	f	class:Unit	typeref:typename:Unit
+readFrom	model/UnitAction.cpp	/^UnitAction UnitAction::readFrom(InputStream& stream) {$/;"	f	class:UnitAction	typeref:typename:UnitAction
+readFrom	model/Vec2Double.cpp	/^Vec2Double Vec2Double::readFrom(InputStream& stream) {$/;"	f	class:Vec2Double	typeref:typename:Vec2Double
+readFrom	model/Vec2Float.cpp	/^Vec2Float Vec2Float::readFrom(InputStream& stream) {$/;"	f	class:Vec2Float	typeref:typename:Vec2Float
+readFrom	model/Versioned.cpp	/^Versioned Versioned::readFrom(InputStream& stream) {$/;"	f	class:Versioned	typeref:typename:Versioned
+readFrom	model/Weapon.cpp	/^Weapon Weapon::readFrom(InputStream& stream) {$/;"	f	class:Weapon	typeref:typename:Weapon
+readFrom	model/WeaponParams.cpp	/^WeaponParams WeaponParams::readFrom(InputStream& stream) {$/;"	f	class:WeaponParams	typeref:typename:WeaponParams
+readInt	Stream.cpp	/^int InputStream::readInt() {$/;"	f	class:InputStream	typeref:typename:int
+readLongLong	Stream.cpp	/^long long InputStream::readLongLong() {$/;"	f	class:InputStream	typeref:typename:long long
+readString	Stream.cpp	/^std::string InputStream::readString() {$/;"	f	class:InputStream	typeref:typename:std::string
+rebuild_cache	build/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache/fast	build/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+recoil	model/WeaponParams.hpp	/^    double recoil;$/;"	m	class:WeaponParams	typeref:typename:double
+reload	model/UnitAction.hpp	/^    bool reload;$/;"	m	class:UnitAction	typeref:typename:bool
+reloadTime	model/WeaponParams.hpp	/^    double reloadTime;$/;"	m	class:WeaponParams	typeref:typename:double
+run	main.cpp	/^  void run() {$/;"	f	class:Runner	typeref:typename:void	file:
+score	model/Player.hpp	/^    int score;$/;"	m	class:Player	typeref:typename:int
+shoot	model/UnitAction.hpp	/^    bool shoot;$/;"	m	class:UnitAction	typeref:typename:bool
+size	model/Bullet.hpp	/^    double size;$/;"	m	class:Bullet	typeref:typename:double
+size	model/BulletParams.hpp	/^    double size;$/;"	m	class:BulletParams	typeref:typename:double
+size	model/CustomData.hpp	/^    Vec2Float size;$/;"	m	class:CustomData::Rect	typeref:typename:Vec2Float
+size	model/CustomData.hpp	/^    float size;$/;"	m	class:CustomData::PlacedText	typeref:typename:float
+size	model/LootBox.hpp	/^    Vec2Double size;$/;"	m	class:LootBox	typeref:typename:Vec2Double
+size	model/Mine.hpp	/^    Vec2Double size;$/;"	m	class:Mine	typeref:typename:Vec2Double
+size	model/Unit.hpp	/^    Vec2Double size;$/;"	m	class:Unit	typeref:typename:Vec2Double
+sock	TcpStream.hpp	/^  SOCKET sock;$/;"	m	class:TcpStream	typeref:typename:SOCKET
+speed	model/BulletParams.hpp	/^    double speed;$/;"	m	class:BulletParams	typeref:typename:double
+speed	model/JumpState.hpp	/^    double speed;$/;"	m	class:JumpState	typeref:typename:double
+spread	model/Weapon.hpp	/^    double spread;$/;"	m	class:Weapon	typeref:typename:double
+stand	model/Unit.hpp	/^    bool stand;$/;"	m	class:Unit	typeref:typename:bool
+state	model/Mine.hpp	/^    MineState state;$/;"	m	class:Mine	typeref:typename:MineState
+std	model/Player.hpp	/^namespace std {$/;"	n
+std::hash	model/Player.hpp	/^    struct hash<Player> {$/;"	s	namespace:std
+std::hash::operator ()	model/Player.cpp	/^size_t std::hash<Player>::operator ()(const Player& value) const {$/;"	f	class:std::hash	typeref:typename:size_t
+swapWeapon	model/UnitAction.hpp	/^    bool swapWeapon;$/;"	m	class:UnitAction	typeref:typename:bool
+tcpStream	TcpStream.cpp	/^  std::shared_ptr<TcpStream> tcpStream;$/;"	m	class:TcpInputStream	typeref:typename:std::shared_ptr<TcpStream>	file:
+tcpStream	TcpStream.cpp	/^  std::shared_ptr<TcpStream> tcpStream;$/;"	m	class:TcpOutputStream	typeref:typename:std::shared_ptr<TcpStream>	file:
+teamSize	model/Properties.hpp	/^    int teamSize;$/;"	m	class:Properties	typeref:typename:int
+text	model/CustomData.hpp	/^    std::string text;$/;"	m	class:CustomData::Log	typeref:typename:std::string
+text	model/CustomData.hpp	/^    std::string text;$/;"	m	class:CustomData::PlacedText	typeref:typename:std::string
+ticksPerSecond	model/Properties.hpp	/^    double ticksPerSecond;$/;"	m	class:Properties	typeref:typename:double
+tiles	model/Level.hpp	/^    std::vector<std::vector<Tile>> tiles;$/;"	m	class:Level	typeref:typename:std::vector<std::vector<Tile>>
+timer	model/Mine.hpp	/^    std::shared_ptr<double> timer;$/;"	m	class:Mine	typeref:typename:std::shared_ptr<double>
+toString	model/Bullet.cpp	/^std::string Bullet::toString() const {$/;"	f	class:Bullet	typeref:typename:std::string
+toString	model/BulletParams.cpp	/^std::string BulletParams::toString() const {$/;"	f	class:BulletParams	typeref:typename:std::string
+toString	model/ColorFloat.cpp	/^std::string ColorFloat::toString() const {$/;"	f	class:ColorFloat	typeref:typename:std::string
+toString	model/ColoredVertex.cpp	/^std::string ColoredVertex::toString() const {$/;"	f	class:ColoredVertex	typeref:typename:std::string
+toString	model/CustomData.cpp	/^std::string CustomData::Line::toString() const {$/;"	f	class:CustomData::Line	typeref:typename:std::string
+toString	model/CustomData.cpp	/^std::string CustomData::Log::toString() const {$/;"	f	class:CustomData::Log	typeref:typename:std::string
+toString	model/CustomData.cpp	/^std::string CustomData::PlacedText::toString() const {$/;"	f	class:CustomData::PlacedText	typeref:typename:std::string
+toString	model/CustomData.cpp	/^std::string CustomData::Polygon::toString() const {$/;"	f	class:CustomData::Polygon	typeref:typename:std::string
+toString	model/CustomData.cpp	/^std::string CustomData::Rect::toString() const {$/;"	f	class:CustomData::Rect	typeref:typename:std::string
+toString	model/ExplosionParams.cpp	/^std::string ExplosionParams::toString() const {$/;"	f	class:ExplosionParams	typeref:typename:std::string
+toString	model/Game.cpp	/^std::string Game::toString() const {$/;"	f	class:Game	typeref:typename:std::string
+toString	model/Item.cpp	/^std::string Item::HealthPack::toString() const {$/;"	f	class:Item::HealthPack	typeref:typename:std::string
+toString	model/Item.cpp	/^std::string Item::Mine::toString() const {$/;"	f	class:Item::Mine	typeref:typename:std::string
+toString	model/Item.cpp	/^std::string Item::Weapon::toString() const {$/;"	f	class:Item::Weapon	typeref:typename:std::string
+toString	model/JumpState.cpp	/^std::string JumpState::toString() const {$/;"	f	class:JumpState	typeref:typename:std::string
+toString	model/Level.cpp	/^std::string Level::toString() const {$/;"	f	class:Level	typeref:typename:std::string
+toString	model/LootBox.cpp	/^std::string LootBox::toString() const {$/;"	f	class:LootBox	typeref:typename:std::string
+toString	model/Mine.cpp	/^std::string Mine::toString() const {$/;"	f	class:Mine	typeref:typename:std::string
+toString	model/Player.cpp	/^std::string Player::toString() const {$/;"	f	class:Player	typeref:typename:std::string
+toString	model/PlayerMessageGame.cpp	/^std::string PlayerMessageGame::ActionMessage::toString() const {$/;"	f	class:PlayerMessageGame::ActionMessage	typeref:typename:std::string
+toString	model/PlayerMessageGame.cpp	/^std::string PlayerMessageGame::CustomDataMessage::toString() const {$/;"	f	class:PlayerMessageGame::CustomDataMessage	typeref:typename:std::string
+toString	model/PlayerView.cpp	/^std::string PlayerView::toString() const {$/;"	f	class:PlayerView	typeref:typename:std::string
+toString	model/Properties.cpp	/^std::string Properties::toString() const {$/;"	f	class:Properties	typeref:typename:std::string
+toString	model/ServerMessageGame.cpp	/^std::string ServerMessageGame::toString() const {$/;"	f	class:ServerMessageGame	typeref:typename:std::string
+toString	model/Unit.cpp	/^std::string Unit::toString() const {$/;"	f	class:Unit	typeref:typename:std::string
+toString	model/UnitAction.cpp	/^std::string UnitAction::toString() const {$/;"	f	class:UnitAction	typeref:typename:std::string
+toString	model/Vec2Double.cpp	/^std::string Vec2Double::toString() const {$/;"	f	class:Vec2Double	typeref:typename:std::string
+toString	model/Vec2Float.cpp	/^std::string Vec2Float::toString() const {$/;"	f	class:Vec2Float	typeref:typename:std::string
+toString	model/Versioned.cpp	/^std::string Versioned::toString() const {$/;"	f	class:Versioned	typeref:typename:std::string
+toString	model/Weapon.cpp	/^std::string Weapon::toString() const {$/;"	f	class:Weapon	typeref:typename:std::string
+toString	model/WeaponParams.cpp	/^std::string WeaponParams::toString() const {$/;"	f	class:WeaponParams	typeref:typename:std::string
+triggerRadius	model/Mine.hpp	/^    double triggerRadius;$/;"	m	class:Mine	typeref:typename:double
+typ	model/Weapon.hpp	/^    WeaponType typ;$/;"	m	class:Weapon	typeref:typename:WeaponType
+unitFallSpeed	model/Properties.hpp	/^    double unitFallSpeed;$/;"	m	class:Properties	typeref:typename:double
+unitId	model/Bullet.hpp	/^    int unitId;$/;"	m	class:Bullet	typeref:typename:int
+unitJumpSpeed	model/Properties.hpp	/^    double unitJumpSpeed;$/;"	m	class:Properties	typeref:typename:double
+unitJumpTime	model/Properties.hpp	/^    double unitJumpTime;$/;"	m	class:Properties	typeref:typename:double
+unitMaxHealth	model/Properties.hpp	/^    int unitMaxHealth;$/;"	m	class:Properties	typeref:typename:int
+unitMaxHorizontalSpeed	model/Properties.hpp	/^    double unitMaxHorizontalSpeed;$/;"	m	class:Properties	typeref:typename:double
+unitSize	model/Properties.hpp	/^    Vec2Double unitSize;$/;"	m	class:Properties	typeref:typename:Vec2Double
+units	model/Game.hpp	/^    std::vector<Unit> units;$/;"	m	class:Game	typeref:typename:std::vector<Unit>
+updatesPerTick	model/Properties.hpp	/^    int updatesPerTick;$/;"	m	class:Properties	typeref:typename:int
+value	Stream.cpp	/^    unsigned short value;$/;"	m	union:isLittleEndianMachine::__anoncb9ca722010a	typeref:typename:unsigned short	file:
+velocity	model/Bullet.hpp	/^    Vec2Double velocity;$/;"	m	class:Bullet	typeref:typename:Vec2Double
+velocity	model/UnitAction.hpp	/^    double velocity;$/;"	m	class:UnitAction	typeref:typename:double
+vertices	model/CustomData.hpp	/^    std::vector<ColoredVertex> vertices;$/;"	m	class:CustomData::Polygon	typeref:typename:std::vector<ColoredVertex>
+volatile	build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c	/^# define volatile$/;"	d	file:
+walkedRight	model/Unit.hpp	/^    bool walkedRight;$/;"	m	class:Unit	typeref:typename:bool
+wasShooting	model/Weapon.hpp	/^    bool wasShooting;$/;"	m	class:Weapon	typeref:typename:bool
+weapon	model/Unit.hpp	/^    std::shared_ptr<Weapon> weapon;$/;"	m	class:Unit	typeref:typename:std::shared_ptr<Weapon>
+weaponParams	model/Properties.hpp	/^    std::unordered_map<WeaponType, WeaponParams> weaponParams;$/;"	m	class:Properties	typeref:typename:std::unordered_map<WeaponType,WeaponParams>
+weaponType	model/Bullet.hpp	/^    WeaponType weaponType;$/;"	m	class:Bullet	typeref:typename:WeaponType
+weaponType	model/Item.hpp	/^    WeaponType weaponType;$/;"	m	class:Item::Weapon	typeref:typename:WeaponType
+width	model/CustomData.hpp	/^    float width;$/;"	m	class:CustomData::Line	typeref:typename:float
+write	Stream.cpp	/^void OutputStream::write(bool value) {$/;"	f	class:OutputStream	typeref:typename:void
+write	Stream.cpp	/^void OutputStream::write(const std::string &value) {$/;"	f	class:OutputStream	typeref:typename:void
+write	Stream.cpp	/^void OutputStream::write(double value) {$/;"	f	class:OutputStream	typeref:typename:void
+write	Stream.cpp	/^void OutputStream::write(float value) {$/;"	f	class:OutputStream	typeref:typename:void
+write	Stream.cpp	/^void OutputStream::write(int value) {$/;"	f	class:OutputStream	typeref:typename:void
+write	Stream.cpp	/^void OutputStream::write(long long value) {$/;"	f	class:OutputStream	typeref:typename:void
+writeBytes	TcpStream.cpp	/^  void writeBytes(const char *buffer, size_t byteCount) {$/;"	f	class:TcpOutputStream	typeref:typename:void	file:
+writeTo	model/Bullet.cpp	/^void Bullet::writeTo(OutputStream& stream) const {$/;"	f	class:Bullet	typeref:typename:void
+writeTo	model/BulletParams.cpp	/^void BulletParams::writeTo(OutputStream& stream) const {$/;"	f	class:BulletParams	typeref:typename:void
+writeTo	model/ColorFloat.cpp	/^void ColorFloat::writeTo(OutputStream& stream) const {$/;"	f	class:ColorFloat	typeref:typename:void
+writeTo	model/ColoredVertex.cpp	/^void ColoredVertex::writeTo(OutputStream& stream) const {$/;"	f	class:ColoredVertex	typeref:typename:void
+writeTo	model/CustomData.cpp	/^void CustomData::Line::writeTo(OutputStream& stream) const {$/;"	f	class:CustomData::Line	typeref:typename:void
+writeTo	model/CustomData.cpp	/^void CustomData::Log::writeTo(OutputStream& stream) const {$/;"	f	class:CustomData::Log	typeref:typename:void
+writeTo	model/CustomData.cpp	/^void CustomData::PlacedText::writeTo(OutputStream& stream) const {$/;"	f	class:CustomData::PlacedText	typeref:typename:void
+writeTo	model/CustomData.cpp	/^void CustomData::Polygon::writeTo(OutputStream& stream) const {$/;"	f	class:CustomData::Polygon	typeref:typename:void
+writeTo	model/CustomData.cpp	/^void CustomData::Rect::writeTo(OutputStream& stream) const {$/;"	f	class:CustomData::Rect	typeref:typename:void
+writeTo	model/ExplosionParams.cpp	/^void ExplosionParams::writeTo(OutputStream& stream) const {$/;"	f	class:ExplosionParams	typeref:typename:void
+writeTo	model/Game.cpp	/^void Game::writeTo(OutputStream& stream) const {$/;"	f	class:Game	typeref:typename:void
+writeTo	model/Item.cpp	/^void Item::HealthPack::writeTo(OutputStream& stream) const {$/;"	f	class:Item::HealthPack	typeref:typename:void
+writeTo	model/Item.cpp	/^void Item::Mine::writeTo(OutputStream& stream) const {$/;"	f	class:Item::Mine	typeref:typename:void
+writeTo	model/Item.cpp	/^void Item::Weapon::writeTo(OutputStream& stream) const {$/;"	f	class:Item::Weapon	typeref:typename:void
+writeTo	model/JumpState.cpp	/^void JumpState::writeTo(OutputStream& stream) const {$/;"	f	class:JumpState	typeref:typename:void
+writeTo	model/Level.cpp	/^void Level::writeTo(OutputStream& stream) const {$/;"	f	class:Level	typeref:typename:void
+writeTo	model/LootBox.cpp	/^void LootBox::writeTo(OutputStream& stream) const {$/;"	f	class:LootBox	typeref:typename:void
+writeTo	model/Mine.cpp	/^void Mine::writeTo(OutputStream& stream) const {$/;"	f	class:Mine	typeref:typename:void
+writeTo	model/Player.cpp	/^void Player::writeTo(OutputStream& stream) const {$/;"	f	class:Player	typeref:typename:void
+writeTo	model/PlayerMessageGame.cpp	/^void PlayerMessageGame::ActionMessage::writeTo(OutputStream& stream) const {$/;"	f	class:PlayerMessageGame::ActionMessage	typeref:typename:void
+writeTo	model/PlayerMessageGame.cpp	/^void PlayerMessageGame::CustomDataMessage::writeTo(OutputStream& stream) const {$/;"	f	class:PlayerMessageGame::CustomDataMessage	typeref:typename:void
+writeTo	model/PlayerView.cpp	/^void PlayerView::writeTo(OutputStream& stream) const {$/;"	f	class:PlayerView	typeref:typename:void
+writeTo	model/Properties.cpp	/^void Properties::writeTo(OutputStream& stream) const {$/;"	f	class:Properties	typeref:typename:void
+writeTo	model/ServerMessageGame.cpp	/^void ServerMessageGame::writeTo(OutputStream& stream) const {$/;"	f	class:ServerMessageGame	typeref:typename:void
+writeTo	model/Unit.cpp	/^void Unit::writeTo(OutputStream& stream) const {$/;"	f	class:Unit	typeref:typename:void
+writeTo	model/UnitAction.cpp	/^void UnitAction::writeTo(OutputStream& stream) const {$/;"	f	class:UnitAction	typeref:typename:void
+writeTo	model/Vec2Double.cpp	/^void Vec2Double::writeTo(OutputStream& stream) const {$/;"	f	class:Vec2Double	typeref:typename:void
+writeTo	model/Vec2Float.cpp	/^void Vec2Float::writeTo(OutputStream& stream) const {$/;"	f	class:Vec2Float	typeref:typename:void
+writeTo	model/Versioned.cpp	/^void Versioned::writeTo(OutputStream& stream) const {$/;"	f	class:Versioned	typeref:typename:void
+writeTo	model/Weapon.cpp	/^void Weapon::writeTo(OutputStream& stream) const {$/;"	f	class:Weapon	typeref:typename:void
+writeTo	model/WeaponParams.cpp	/^void WeaponParams::writeTo(OutputStream& stream) const {$/;"	f	class:WeaponParams	typeref:typename:void
+x	model/Vec2Double.hpp	/^    double x;$/;"	m	class:Vec2Double	typeref:typename:double
+x	model/Vec2Float.hpp	/^    float x;$/;"	m	class:Vec2Float	typeref:typename:float
+y	model/Vec2Double.hpp	/^    double y;$/;"	m	class:Vec2Double	typeref:typename:double
+y	model/Vec2Float.hpp	/^    float y;$/;"	m	class:Vec2Float	typeref:typename:float
